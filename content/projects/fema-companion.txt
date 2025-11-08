@@ -1,0 +1,27 @@
+title: FEMA Companion
+subtitle: AI knowledge assistant for seismic design (RAG)
+tags: rag, streamlit, engineering, openai, chromadb
+image: assets/images/projects/fema-companion.jpg
+overview: A specialized AI tool to help engineers quickly interpret FEMA P-750 and NIST GCR seismic design guidelines. Users can ask natural-language questions (e.g., “What are the criteria for Seismic Design Category D?”) and receive concise, cited explanations from the official design documents. Built with embeddings, vector retrieval, and a Streamlit UI.
+stack:
+- PDF text extraction and cleaning
+- OpenAI embeddings for semantic encoding
+- ChromaDB for vector storage and retrieval
+- GPT-based answer synthesis with citations
+- Streamlit user interface
+focus:
+- Accessibility: Converts static PDFs into a searchable knowledge base
+- Accuracy: Answers cite the original code sections
+- Efficiency: Reduces time searching manuals by 80%+
+target_users:
+- Structural engineers referencing FEMA/NIST design codes
+- Civil engineers and design reviewers
+- Engineering students learning seismic design fundamentals
+impact:
+- Cuts reference lookup from hours to seconds
+- Encourages code compliance via cited answers
+- Demonstrates practical AI for engineering knowledge
+links:
+- demo: 
+- repo: 
+

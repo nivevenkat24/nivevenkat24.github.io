@@ -1,0 +1,18 @@
+summary: Engineer-turned-MBA specializing in business analytics, strategy, and AI-enabled product development. Blends systems thinking from structural engineering with data-driven decision-making and product execution. Open to roles in product management, strategy/ops, and applied AI.
+skills:
+- Product strategy and execution
+- Business analytics and experimentation
+- AI/LLM apps (RAG, custom GPTs)
+- Workflow automation (n8n)
+- Python, Streamlit
+- Vector DBs (ChromaDB, Pinecone)
+- Prompt design and evaluation
+- Data storytelling and communication
+experience:
+- Structural Engineer — Designed and managed water infrastructure projects with cross-functional coordination and rigorous calculation/QA workflows.
+- Graduate Projects — Led/assisted AI-driven product design, carbon credit pricing models, and digital transformation (sustainability focus).
+education:
+- MBA, NYU Stern — Business Analytics, Strategy, Tech Product Management (2023–present)
+- B.E./B.S. in Civil/Structural Engineering
+download: assets/resume/Nive_Venkat.pdf
+

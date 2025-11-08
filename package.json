@@ -1,0 +1,11 @@
+{
+  "name": "nive-portfolio-spa",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-content.mjs",
+    "dev": "npx --yes serve -l 5173 public"
+  }
+}
+

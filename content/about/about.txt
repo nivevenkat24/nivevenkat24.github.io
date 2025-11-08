@@ -1,0 +1,22 @@
+name: Nive Venkat
+tagline: Structural Engineer → NYU Stern MBA (Business Analytics, Strategy, Technology Product Management)
+image: assets/images/headshot.jpg
+bio: Hi! I’m Nive Venkat, and welcome to my corner of the internet.
+For the past several years, I’ve worked as a Structural Engineer, designing and managing complex water infrastructure projects that keep communities running. I’ve always loved the process of solving problems — breaking them down, analyzing data, and building systems that work in the real world.
+In 2023, I began my MBA at NYU Stern, specializing in Business Analytics, Strategy, and Technology Product Management. Since then, I’ve focused on how AI, analytics, and business strategy come together to shape smarter, more resilient organizations. I’ve led and contributed to projects ranging from AI-driven product design to carbon credit pricing models and digital transformation strategies for sustainability-focused companies.
+That blend of engineering precision, business judgment, and tech curiosity is what drives me — whether I’m evaluating a business model, analyzing market data, or designing scalable systems for decision-making.
+Becoming a mom has also shaped the way I see work and purpose. Balancing parenthood, a full-time career, and graduate school has taught me resilience, empathy, and the power of small, consistent steps toward big goals.
+When I’m not building systems or studying case frameworks, you’ll usually find me baking something sweet, hiking with my family, or creating new toddler activities for my son. I also love experimenting with AI tools and side projects that make everyday life a little smarter and more joyful.
+I’m excited about this next chapter — one where I can blend engineering logic, business strategy, and creative curiosity to design solutions that make a difference.
+highlights:
+- Structural engineer (water infrastructure)
+- NYU Stern MBA (Business Analytics, Strategy, Tech PM)
+- AI + analytics + strategy focus
+- Projects: custom GPTs, RAG tools, automations
+- Systems thinking with real-world impact
+- Builder, curious, empathetic
+interests:
+- AI tools and prototyping
+- Baking and hiking
+- Family and toddler activities
+

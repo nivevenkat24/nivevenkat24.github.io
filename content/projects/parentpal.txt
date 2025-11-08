@@ -1,0 +1,28 @@
+title: ParentPal
+subtitle: Custom GPT for trustworthy parenting guidance
+tags: gpt, parenting, healthcare, aap
+image: assets/images/projects/parentpal.jpg
+overview: A custom GPT designed to support new parents with trustworthy, evidence-based information about child health, safety, and development. The bot guides users to reliable resources from the American Academy of Pediatrics (AAP) via HealthyChildren.org, helping parents make informed decisions on topics like feeding, sleep, milestones, and safety. It answers questions with warmth, clear formatting, and verified links, offering reassurance while avoiding misinformation.
+stack:
+- OpenAI Custom GPT builder
+- Strict source querying to HealthyChildren.org
+- Empathetic, structured response style
+- Scope guardrails (refer to pediatrician when needed)
+- Bilingual awareness (Spanish content availability)
+- Age-based navigation (newborn, infant, toddler, preschooler, teen)
+focus:
+- Evidence-based guidance (AAP-verified sources)
+- Empathy and clarity
+- Accessibility and trust markers
+target_users:
+- First-time parents seeking reassurance
+- Families looking for development-stage tips
+- Childcare workers or educators referencing AAP guidance
+impact:
+- Reduces anxiety and misinformation risk
+- Delivers quick, verified links and answers
+- Encourages speaking with pediatricians for medical advice
+links:
+- demo: 
+- repo: 
+

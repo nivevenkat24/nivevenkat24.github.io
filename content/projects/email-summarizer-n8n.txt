@@ -1,0 +1,28 @@
+title: Email Summarizer (n8n)
+subtitle: Automated weekly digest of top emails with AI
+tags: n8n, gmail, openai, automation
+image: assets/images/projects/email-summarizer.jpg
+overview: A fully automated email summarizer built using n8n that reads the top 50 emails from a user’s inbox, categorizes key themes, extracts to-do items, and delivers a weekly summary email with highlights and actionable next steps. It connects with Gmail, uses OpenAI for intelligent summarization, and compiles the output into a clean, readable digest sent every Monday.
+stack:
+- n8n workflow automation platform
+- Cron trigger (Mondays 8 AM EST)
+- Gmail API for email retrieval
+- OpenAI API for summarization and extraction
+- Email node for digest delivery
+focus:
+- Automation and efficiency (reduce manual triage)
+- Actionable insight (to-dos and reminders)
+- Personalized control (filters and frequency)
+target_users:
+- Busy professionals drowning in email clutter
+- Consultants and managers managing multiple clients
+- Students and researchers seeking weekly knowledge digests
+- Knowledge workers balancing communication and analysis
+impact:
+- Reduces inbox review time by up to 70%
+- Promotes proactive follow-up on deadlines
+- Improves focus by surfacing only what matters
+links:
+- demo: 
+- repo: 
+
