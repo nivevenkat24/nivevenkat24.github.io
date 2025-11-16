@@ -1,28 +1,59 @@
-title: Email Summarizer (n8n)
+title: Email Summarizer using n8n
 subtitle: Automated weekly digest of top emails with AI
-tags: n8n, gmail, openai, automation
-image: assets/images/projects/email-summarizer.jpg
-overview: A fully automated email summarizer built using n8n that reads the top 50 emails from a user’s inbox, categorizes key themes, extracts to-do items, and delivers a weekly summary email with highlights and actionable next steps. It connects with Gmail, uses OpenAI for intelligent summarization, and compiles the output into a clean, readable digest sent every Monday.
-stack:
-- n8n workflow automation platform
-- Cron trigger (Mondays 8 AM EST)
-- Gmail API for email retrieval
-- OpenAI API for summarization and extraction
-- Email node for digest delivery
-focus:
-- Automation and efficiency (reduce manual triage)
-- Actionable insight (to-dos and reminders)
-- Personalized control (filters and frequency)
-target_users:
-- Busy professionals drowning in email clutter
-- Consultants and managers managing multiple clients
-- Students and researchers seeking weekly knowledge digests
-- Knowledge workers balancing communication and analysis
-impact:
-- Reduces inbox review time by up to 70%
-- Promotes proactive follow-up on deadlines
-- Improves focus by surfacing only what matters
+tags:
+- n8n
+- openai
+- engineering
+- ollama
+image: assets/images/projects/email-summarizer.png
+overview: 
+
+### **Overview**
+
+A fully automated email intelligence agent that reads the top 50 emails each week, extracts themes, action items, and reminders, and sends a structured summary to the user.
+
+---
+
+### **Problem**
+
+Professionals spend hours triaging inboxes, often missing critical to-dos hidden inside long threads. A lightweight, automated summarizer can dramatically reduce cognitive load and improve task prioritization.---
+
+### **Architecture Diagram (High-Level RAG Pipeline)**
+
+```mermaid
+flowchart LR
+  Cron[Weekly Cron Trigger] --> Gmail["Fetch 50 Emails"]
+  Gmail --> LLM["OpenAI Summarizer"]
+  LLM --> Organizer["Categorize: Highlights / To-Dos / Reminders"]
+  Organizer --> EmailNode[Email Sender]
+  EmailNode --> User
+```
+---
+### **Tech Stack**
+- n8n
+- Gmail API
+- GPT models
+- Cron schedules
+- Email node (SMTP)
+
+---
+
+### **Key Challenges**
+- Avoiding invented tasks ("hallucinated action items")
+- Handling duplicate content in long threads
+- Designing summaries that work on mobile
+- Ensuring reliable weekly execution
+
+---
+
+### **What I Learned**
+- How to design multi-step agentic workflows
+- How prompt engineering affects action-item extraction
+- How to balance completeness and brevity
+- How to deliver recurring automation with reliability
+
+---
+
 links:
 - demo: 
 - repo: 
-

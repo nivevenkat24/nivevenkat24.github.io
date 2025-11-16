@@ -7,34 +7,16 @@
   },
   "projects": [
     {
-      "title": "Email Summarizer (n8n)",
+      "title": "Email Summarizer using n8n",
       "subtitle": "Automated weekly digest of top emails with AI",
-      "tags": [],
-      "image": "assets/images/projects/email-summarizer.jpg",
-      "overview": "A fully automated email summarizer built using n8n that reads the top 50 emails from a user’s inbox, categorizes key themes, extracts to-do items, and delivers a weekly summary email with highlights and actionable next steps. It connects with Gmail, uses OpenAI for intelligent summarization, and compiles the output into a clean, readable digest sent every Monday.",
-      "stack": [
-        "n8n workflow automation platform",
-        "Cron trigger (Mondays 8 AM EST)",
-        "Gmail API for email retrieval",
-        "OpenAI API for summarization and extraction",
-        "Email node for digest delivery"
+      "tags": [
+        "n8n",
+        "openai",
+        "engineering",
+        "ollama"
       ],
-      "focus": [
-        "Automation and efficiency (reduce manual triage)",
-        "Actionable insight (to-dos and reminders)",
-        "Personalized control (filters and frequency)"
-      ],
-      "target_users": [
-        "Busy professionals drowning in email clutter",
-        "Consultants and managers managing multiple clients",
-        "Students and researchers seeking weekly knowledge digests",
-        "Knowledge workers balancing communication and analysis"
-      ],
-      "impact": [
-        "Reduces inbox review time by up to 70%",
-        "Promotes proactive follow-up on deadlines",
-        "Improves focus by surfacing only what matters"
-      ],
+      "image": "assets/images/projects/email-summarizer.png",
+      "overview": "### **Overview**\nA fully automated email intelligence agent that reads the top 50 emails each week, extracts themes, action items, and reminders, and sends a structured summary to the user.\n---\n### **Problem**\nProfessionals spend hours triaging inboxes, often missing critical to-dos hidden inside long threads. A lightweight, automated summarizer can dramatically reduce cognitive load and improve task prioritization.---\n### **Architecture Diagram (High-Level RAG Pipeline)**\n```mermaid\nflowchart LR\nCron[Weekly Cron Trigger] --> Gmail[\"Fetch 50 Emails\"]\nGmail --> LLM[\"OpenAI Summarizer\"]\nLLM --> Organizer[\"Categorize: Highlights / To-Dos / Reminders\"]\nOrganizer --> EmailNode[Email Sender]\nEmailNode --> User\n```\n---\n### **Tech Stack**\n- n8n\n- Gmail API\n- GPT models\n- Cron schedules\n- Email node (SMTP)\n---\n### **Key Challenges**\n- Avoiding invented tasks (\"hallucinated action items\")\n- Handling duplicate content in long threads\n- Designing summaries that work on mobile\n- Ensuring reliable weekly execution\n---\n### **What I Learned**\n- How to design multi-step agentic workflows\n- How prompt engineering affects action-item extraction\n- How to balance completeness and brevity\n- How to deliver recurring automation with reliability\n---",
       "links": [],
       "-_demo": "",
       "-_repo": "",
@@ -76,31 +58,14 @@
     {
       "title": "SalesSense AI",
       "subtitle": "Real-time sales intelligence agent (RAG + automation)",
-      "tags": [],
-      "image": "assets/images/projects/salessense-ai.jpg",
-      "overview": "An AI-powered Sales Intelligence Agent that transforms raw sales data and reports into conversational insights. An n8n automation monitors a Drive/CRM export folder for new files, ingests and embeds them into a vector database, and enables users to ask questions like “How close are we to this month’s goal?”. Produces cited, KPI-grounded responses and scheduled “Sales Snapshot” emails.",
-      "stack": [
-        "n8n automation layer for file change detection",
-        "Data normalization for CSVs, Sheets, PDFs",
-        "OpenAI embeddings stored in Pinecone",
-        "GPT query engine with cited, KPI-focused answers",
-        "Streamlit chat UI and summaries"
+      "tags": [
+        "n8n",
+        "openai",
+        "engineering",
+        "ollama"
       ],
-      "focus": [],
-      "-_visibility": "Access key sales insights instantly",
-      "-_traceability": "Every answer cites source data",
-      "-_proactivity": "Scheduled performance summaries",
-      "target_users": [
-        "Sales and business managers tracking monthly goals",
-        "Operations analysts compiling regional reports",
-        "Executives seeking at-a-glance revenue insights",
-        "Strategy teams aligning OKRs with metrics"
-      ],
-      "impact": [
-        "Reduces manual report compilation time by ~80%",
-        "Delivers live insights grounded in company data",
-        "Enables data-driven decisions faster"
-      ],
+      "image": "assets/images/projects/sales-sense-ai.png",
+      "overview": "### **Overview**\nA RAG-powered AI agent that analyzes sales files, embeds them into a vector database, and enables conversational analysis of KPIs, performance trends, and competitor insights.\n---\n### **Problem**\nSales ops teams deal with scattered PDFs, Excel files, and decks. Answering even basic questions about growth or retention requires time-consuming manual work.\n### **Architecture Diagram (Sales RAG System)**\n```mermaid\nflowchart LR\nA[Drive Folder] --> B[n8n Ingestion Pipeline]\nB --> C[Embedding Pipeline]\nC --> D[Vector DB]\nD --> E[LLM Answer Engine]\nE --> F[Chat UI]\n```\n---\n### **Tech Stack**\n- Python\n- n8n automation\n- Pinecone\n- LangChain\n- GPT models\n- Streamlit UI\n---\n### **Key Challenges**\n- Normalizing unstructured sales files\n- Ensuring accurate KPI extraction\n- Updating embeddings as new files arrive\n- Avoiding hallucinations when data is missing\n---\n### **What I Learned**\n- How to operationalize data ingestion for business users\n- How RAG behaves with structured vs. unstructured data\n- How to design explainability into business AI tools\n- How to balance transparency with speed\n---",
       "links": [],
       "-_demo": "",
       "-_repo": "",
@@ -129,5 +94,5 @@
     ],
     "download": "assets/resume/Nive_Venkat.pdf"
   },
-  "generatedAt": "2025-11-16T03:31:40.874Z"
+  "generatedAt": "2025-11-16T04:23:35.164Z"
 }
