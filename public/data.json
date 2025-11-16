@@ -3,15 +3,13 @@
     "name": "Nive Venkat",
     "tagline": "Structural Engineer → NYU Stern MBA (Business Analytics, Strategy, Technology Product Management)",
     "image": "assets/images/headshot.jpg",
-    "bio": "Hi! I’m Nive Venkat, and welcome to my corner of the internet.\nFor the past several years, I’ve worked as a Structural Engineer, designing and managing complex water infrastructure projects that keep communities running. I’ve always loved the process of solving problems — breaking them down, analyzing data, and building systems that work in the real world.\nIn 2023, I began my MBA at NYU Stern, specializing in Business Analytics, Strategy, and Technology Product Management. Since then, I’ve focused on how AI, analytics, and business strategy come together to shape smarter, more resilient organizations. I’ve led and contributed to projects ranging from AI-driven product design to carbon credit pricing models and digital transformation strategies for sustainability-focused companies.\nThat blend of engineering precision, business judgment, and tech curiosity is what drives me — whether I’m evaluating a business model, analyzing market data, or designing scalable systems for decision-making.\nBecoming a mom has also shaped the way I see work and purpose. Balancing parenthood, a full-time career, and graduate school has taught me resilience, empathy, and the power of small, consistent steps toward big goals.\nWhen I’m not building systems or studying case frameworks, you’ll usually find me baking something sweet, hiking with my family, or creating new toddler activities for my son. I also love experimenting with AI tools and side projects that make everyday life a little smarter and more joyful.\nI’m excited about this next chapter — one where I can blend engineering logic, business strategy, and creative curiosity to design solutions that make a difference.",
+    "bio": "Hi! I’m **Nive** — engineer, AI builder, MBA candidate, and mom — and I’m happy you’re here.\nI started my career as a Structural Engineer, designing and managing water infrastructure systems that quietly keep entire cities running. What drew me to engineering back then is still true today: I love breaking down complexity, making sense of data, and building systems that work in the real world.\nIn 2023, I began my MBA at **NYU Stern**, specializing in Business Analytics, Strategy, and Technology Product Management. That’s where my curiosity for AI really took off. I became fascinated by how engineering logic, product thinking, and data-driven decision-making come together to create smarter, more resilient organizations.\nSince then, I’ve worked on projects ranging from AI-powered product design and climate-tech pricing models to construction-tech strategy and machine learning workflows. Across every space, one thing stays the same: I love turning ambiguity into structure, and structure into solutions people actually use.\nMotherhood has added an unexpected and meaningful layer to my journey. Balancing a full-time career, graduate school, and raising a tiny human taught me resilience, empathy, and the power of small, consistent progress. It changed how I lead, how I build, and what I value in the work I choose to do.\nOutside of work, you’ll find me baking something sweet, hiking with my family, or inventing new toddler activities for my son. You’ll also find me experimenting with AI tools and side projects — anything that blends curiosity with creativity and makes everyday life a little smarter or more joyful.\n---\n### _The Real Summary_\n_I design water systems by day, build AI tools by night, and chase a toddler in between._\n_If there’s a messy business problem, I’ll break it down._\n_If there’s data, I’ll analyze it._\n_And if there’s an opportunity to use AI to make life easier, I’m already building it._\n---\nI also love connecting with people on similar paths. I regularly mentor students exploring engineering, product, AI, studying abroad, or making early-career decisions. I enjoy helping early-stage startups think through ideas, and I support NGOs and mission-driven teams whenever I can.\nIf you’d like to chat, brainstorm, or explore mentorship, feel free to book a time — I’m usually available on weekends:\n👉 **[Book a meeting with me](https://calendar.app.google/F2uy288Db6Jw7Mft8)**\nI’m excited for what comes next and grateful that our paths crossed here.",
     "highlights": [
       "Structural engineer (water infrastructure)",
       "NYU Stern MBA (Business Analytics, Strategy, Tech PM)",
-      "AI + analytics + strategy focus",
-      "Projects: custom GPTs, RAG tools, automations",
-      "Systems thinking with real-world impact",
-      "Builder, curious, empathetic"
+      "AI + analytics + strategy focus"
     ],
+    "-_projects": "custom GPTs, RAG tools, automations",
     "interests": [
       "AI tools and prototyping",
       "Baking and hiking",
@@ -20,10 +18,19 @@
   },
   "projects": [
     {
+      "future_enhancements": [],
+      "the_mvp_is_structured_around_three_pillars": "Evidence-Based Guidance – Only cites AAP-verified medical sources.\nEmpathy & Clarity – Friendly tone and simple explanations.\nAccessibility & Trust – Fast answers, reliable links, and bilingual support.",
+      "user_personas": "👩‍🍼 First-time parents seeking reassurance\n👨‍👩‍👧 Families looking for development-stage tips\n👩‍⚕️ Childcare workers or educators referencing AAP guidance\nIncludes built-in trust markers (“Always check with your pediatrician”) and compliance filters to maintain medical reliability and ethical accuracy.",
+      "links": [],
+      "-_demo": "https://chatgpt.com/g/g-690a6ecab4bc8191b85495143ac13d78-parentpal",
+      "-_repo": "",
+      "slug": "parentpal"
+    },
+    {
       "title": "Email Summarizer (n8n)",
       "subtitle": "Automated weekly digest of top emails with AI",
-      "tags": ["n8n", "gmail", "openai", "automation"],
-      "image": "assets/images/project-placeholder.svg",
+      "tags": [],
+      "image": "assets/images/projects/email-summarizer.jpg",
       "overview": "A fully automated email summarizer built using n8n that reads the top 50 emails from a user’s inbox, categorizes key themes, extracts to-do items, and delivers a weekly summary email with highlights and actionable next steps. It connects with Gmail, uses OpenAI for intelligent summarization, and compiles the output into a clean, readable digest sent every Monday.",
       "stack": [
         "n8n workflow automation platform",
@@ -48,21 +55,29 @@
         "Promotes proactive follow-up on deadlines",
         "Improves focus by surfacing only what matters"
       ],
-      "links": []
+      "links": [],
+      "-_demo": "",
+      "-_repo": "",
+      "slug": "email-summarizer-n8n"
     },
     {
       "title": "FEMA Companion",
       "subtitle": "AI knowledge assistant for seismic design (RAG)",
-      "tags": ["rag", "streamlit", "engineering", "openai", "chromadb"],
-      "image": "assets/images/project-placeholder.svg",
-      "overview": "A specialized AI tool built to help engineers and designers quickly interpret FEMA P-750 and NIST GCR seismic design guidelines. Using natural language queries, users can ask questions like \"What are the criteria for Seismic Design Category D?\" or \"List response-modification factors for SMRFs,\" and instantly receive concise, cited explanations from the official design documents. The goal: make seismic design knowledge accessible and searchable — transforming long, technical PDFs into a fast, intuitive, and interactive engineering companion. Built with the power of ChatGPT, OpenAI embeddings, and a Streamlit UI, FEMA Companion bridges the gap between technical codes and real-time understanding.",
-      "stack": [
-        "Data Source: FEMA P-750 and NIST GCR public design manuals (PDF → text extraction)",
-        "Embedding & Indexing: OpenAI embeddings; stored and indexed locally in ChromaDB for fast vector retrieval",
-        "Query Engine: OpenAI GPT interprets user questions, retrieves relevant text chunks, and generates concise, cited answers (e.g., [FEMA_P750.pdf p.12])",
-        "User Interface: Streamlit app for free-form questions, contextual answers, and citation verification",
-        "Architecture Layers: Data (extraction & cleaning) • Embedding (OpenAI) • Retrieval (Chroma) • Response (GPT) • UI (Streamlit)"
+      "tags": [
+        "rag",
+        "streamlit",
+        "engineering",
+        "openai",
+        "chromadb"
       ],
+      "image": "assets/images/projects/fema-companion.jpg",
+      "overview": "A specialized AI tool built to help engineers and designers quickly interpret FEMA P-750 and NIST GCR seismic design guidelines.\nUsing natural language queries, users can ask questions like \"What are the criteria for Seismic Design Category D?\" or \"List response-modification factors for SMRFs,\" and instantly receive concise, cited explanations from the official design documents.",
+      "the_goal": "make seismic design knowledge accessible and searchable — transforming long, technical PDFs into a fast, intuitive, and interactive engineering companion.\nBuilt with the power of ChatGPT, OpenAI embeddings, and a Streamlit UI, FEMA Companion bridges the gap between technical codes and real-time understanding.",
+      "stack": [],
+      "-_data_source": "FEMA P-750 and NIST GCR public design manuals (PDF → text extraction)",
+      "-_query_engine": "OpenAI GPT interprets user questions, retrieves relevant text chunks, and generates concise, cited answers (e.g., [FEMA_P750.pdf p.12])",
+      "-_user_interface": "Streamlit app for free-form questions in plain English, contextual answers, and citation verification",
+      "-_architecture_layers": "Data (extraction & cleaning) • Embedding (OpenAI) • Retrieval (Chroma) • Response (GPT) • UI (Streamlit)",
       "focus": [
         "Accessibility – Converts static PDFs into an interactive, searchable knowledge base",
         "Accuracy – Provides answers directly cited from the original code sections",
@@ -84,73 +99,47 @@
         "Extend support to other design standards (ASCE 7-22, ACI 318, etc.)",
         "Enable multi-document RAG with versioned FEMA updates"
       ],
-      "links": []
-    },
-    {
-      "title": "ParentPal",
-      "subtitle": "Custom GPT for trustworthy parenting guidance",
-      "tags": ["gpt", "parenting", "healthcare", "aap"],
-      "image": "assets/images/project-placeholder.svg",
-      "overview": "A custom GPT designed to support new parents with trustworthy, evidence-based information about child health, safety, and development. The bot guides users to reliable resources from the AAP via HealthyChildren.org and answers with warmth, clarity, and verified links.",
-      "stack": [
-        "OpenAI Custom GPT builder",
-        "Strict source querying to HealthyChildren.org",
-        "Empathetic, structured response style",
-        "Scope guardrails",
-        "Bilingual awareness",
-        "Age-based navigation"
-      ],
-      "focus": [
-        "Evidence-based guidance",
-        "Empathy and clarity",
-        "Accessibility and trust"
-      ],
-      "target_users": [
-        "First-time parents seeking reassurance",
-        "Families looking for development-stage tips",
-        "Childcare workers or educators referencing AAP guidance"
-      ],
-      "impact": [
-        "Reduces anxiety and misinformation risk",
-        "Delivers quick, verified links and answers",
-        "Encourages speaking with pediatricians for medical advice"
-      ],
-      "links": []
+      "links": [],
+      "-_demo": "",
+      "-_repo": "",
+      "slug": "fema-companion"
     },
     {
       "title": "SalesSense AI",
       "subtitle": "Real-time sales intelligence agent (RAG + automation)",
-      "tags": ["rag", "n8n", "pinecone", "streamlit", "analytics"],
-      "image": "assets/images/project-placeholder.svg",
-      "overview": "An AI-powered Sales Intelligence Agent that transforms raw sales data and reports into conversational insights. An n8n automation monitors a Drive/CRM export folder for new files, ingests and embeds them into a vector database, and enables users to ask questions about revenue, targets, and growth.",
+      "tags": [],
+      "image": "assets/images/projects/salessense-ai.jpg",
+      "overview": "An AI-powered Sales Intelligence Agent that transforms raw sales data and reports into conversational insights. An n8n automation monitors a Drive/CRM export folder for new files, ingests and embeds them into a vector database, and enables users to ask questions like “How close are we to this month’s goal?”. Produces cited, KPI-grounded responses and scheduled “Sales Snapshot” emails.",
       "stack": [
-        "n8n automation for file detection",
+        "n8n automation layer for file change detection",
         "Data normalization for CSVs, Sheets, PDFs",
         "OpenAI embeddings stored in Pinecone",
         "GPT query engine with cited, KPI-focused answers",
-        "Streamlit chat UI"
+        "Streamlit chat UI and summaries"
       ],
-      "focus": [
-        "Visibility",
-        "Traceability",
-        "Proactivity"
-      ],
+      "focus": [],
+      "-_visibility": "Access key sales insights instantly",
+      "-_traceability": "Every answer cites source data",
+      "-_proactivity": "Scheduled performance summaries",
       "target_users": [
-        "Sales and business managers",
-        "Operations analysts",
-        "Executives",
-        "Strategy teams"
+        "Sales and business managers tracking monthly goals",
+        "Operations analysts compiling regional reports",
+        "Executives seeking at-a-glance revenue insights",
+        "Strategy teams aligning OKRs with metrics"
       ],
       "impact": [
         "Reduces manual report compilation time by ~80%",
         "Delivers live insights grounded in company data",
         "Enables data-driven decisions faster"
       ],
-      "links": []
+      "links": [],
+      "-_demo": "",
+      "-_repo": "",
+      "slug": "salessense-ai"
     }
   ],
   "resume": {
-    "summary": "Engineer-turned-Strategist specializing in business analytics, strategy, and AI-enabled product development. Blends systems thinking from structural engineering with data-driven decision-making and product execution. Open to roles in product management, strategy/ops, and applied AI.",
+    "summary": "Engineer-turned-MBA specializing in business analytics, strategy, and AI-enabled product development. Blends systems thinking from structural engineering with data-driven decision-making and product execution. Open to roles in product management, strategy/ops, and applied AI.",
     "skills": [
       "Product strategy and execution",
       "Business analytics and experimentation",
@@ -171,5 +160,5 @@
     ],
     "download": "assets/resume/Nive_Venkat.pdf"
   },
-  "generatedAt": "seed"
+  "generatedAt": "2025-11-15T22:58:36.895Z"
 }
