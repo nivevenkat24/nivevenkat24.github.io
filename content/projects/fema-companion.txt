@@ -7,33 +7,59 @@ tags:
 - openai
 - chromadb
 image: assets/images/projects/fema-companion.jpg
-overview: A specialized AI tool built to help engineers and designers quickly interpret FEMA P-750 and NIST GCR seismic design guidelines.
-Using natural language queries, users can ask questions like "What are the criteria for Seismic Design Category D?" or "List response-modification factors for SMRFs," and instantly receive concise, cited explanations from the official design documents.
-The goal: make seismic design knowledge accessible and searchable — transforming long, technical PDFs into a fast, intuitive, and interactive engineering companion.
-Built with the power of ChatGPT, OpenAI embeddings, and a Streamlit UI, FEMA Companion bridges the gap between technical codes and real-time understanding.
-stack:
-- Data Source: FEMA P-750 and NIST GCR public design manuals (PDF → text extraction)
-- Embedding & Indexing: OpenAI embeddings; stored and indexed locally in ChromaDB for fast vector retrieval
-- Query Engine: OpenAI GPT interprets user questions, retrieves relevant text chunks, and generates concise, cited answers (e.g., [FEMA_P750.pdf p.12])
-- User Interface: Streamlit app for free-form questions in plain English, contextual answers, and citation verification
-- Architecture Layers: Data (extraction & cleaning) • Embedding (OpenAI) • Retrieval (Chroma) • Response (GPT) • UI (Streamlit)
-focus:
-- Accessibility – Converts static PDFs into an interactive, searchable knowledge base
-- Accuracy – Provides answers directly cited from the original code sections
-- Efficiency – Reduces time spent searching through manuals by over 80%
-target_users:
-- Structural engineers referencing FEMA/NIST design codes
-- Civil engineers and design reviewers needing quick lookups
-- Engineering students learning seismic design fundamentals
-impact:
-- Cuts reference lookup time from hours to seconds
-- Encourages code compliance by improving access to source guidance
-- Demonstrates practical AI integration for engineering knowledge systems
-future:
-- Add Ollama local model integration for fully offline use
-- Include design examples and formula lookups for educational use
-- Extend support to other design standards (ASCE 7-22, ACI 318, etc.)
-- Enable multi-document RAG with versioned FEMA updates
+overview: 
+### *Overview*
+
+A Retrieval-Augmented Generation (RAG) tool that makes 
+**FEMA P-750** and **NIST GCR 2016** seismic design guidelines fully searchable. The system enables engineers to ask natural-language questions and receive precise, citation-backed answers.
+
+---
+
+### **Problem**
+
+Seismic codes are dense, technical, and difficult to navigate. 
+Engineers spend significant time manually searching hundreds of pages, often missing important clauses. No existing solution provides fast, authoritative, clause-level lookup grounded directly in source documents.
+---
+
+### **Architecture Diagram (High-Level RAG Pipeline)**
+
+```mermaid
+flowchart LR
+    A[User] --> B[Query Handler]
+    B --> C[Vector Search]
+    C --> D["Document Chunks <br> (FEMA / NIST)"]
+    D --> E[Embeddings]
+    E --> F[LLM Reasoning]
+    F --> G["Final Answer<br>+ Citations"]
+```
+---
+### **Tech Stack**
+
+- LangChain  
+- ChromaDB  
+- OpenAI embeddings  
+- GPT models  
+- Python / Streamlit  
+- PDF parsing with `pypdf`
+
+---
+
+### **Key Challenges**
+- Designing chunk sizes for technical engineering text  
+- Preventing LLM hallucinations with strict grounding constraints  
+- Ensuring consistent citation mapping  
+- Handling mixed-format engineering documents
+
+---
+
+### **What I Learned**
+- How to build a complete RAG system end-to-end  
+- How retrieval quality affects answer accuracy and trustworthiness  
+- How to design usable AI tools for domain experts  
+- How to enforce accuracy and grounding in engineering workflows  
+
+---
+
 links:
 - demo: 
 - repo: 

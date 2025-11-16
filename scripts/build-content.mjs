@@ -50,8 +50,9 @@ function parseSimpleText(txt) {
         } else {
           data[currentKey].push(item);
         }
+        continue;
       }
-      continue;
+      // If not an array field, let the bullet fall through and be captured as text (Markdown list)
     }
 
     // Multiline text for certain keys

@@ -1,21 +1,28 @@
 name: Nive Venkat
 tagline: Structural Engineer → NYU Stern MBA (Business Analytics, Strategy, Technology Product Management)
 image: assets/images/headshot.jpg
-bio: Hi! I’m **Nive** — engineer, AI builder, MBA candidate, and mom — and I’m happy you’re here.
+bio: 
+---
+Hi! I’m **Nive** — engineer, AI builder, MBA candidate, and mom — and I’m happy you’re here. I started my career as a Structural Engineer, designing and managing water infrastructure systems that quietly keep entire cities running. What drew me to engineering back then is still true today: I love breaking down complexity, making sense of data, and building systems that work in the real world.
 
-I started my career as a Structural Engineer, designing and managing water infrastructure systems that quietly keep entire cities running. What drew me to engineering back then is still true today: I love breaking down complexity, making sense of data, and building systems that work in the real world.
 In 2023, I began my MBA at **NYU Stern**, specializing in Business Analytics, Strategy, and Technology Product Management. That’s where my curiosity for AI really took off. I became fascinated by how engineering logic, product thinking, and data-driven decision-making come together to create smarter, more resilient organizations.
+
 Since then, I’ve worked on projects ranging from AI-powered product design and climate-tech pricing models to construction-tech strategy and machine learning workflows. Across every space, one thing stays the same: I love turning ambiguity into structure, and structure into solutions people actually use.
+
 Motherhood has added an unexpected and meaningful layer to my journey. Balancing a full-time career, graduate school, and raising a tiny human taught me resilience, empathy, and the power of small, consistent progress. It changed how I lead, how I build, and what I value in the work I choose to do.
+
 Outside of work, you’ll find me baking something sweet, hiking with my family, or inventing new toddler activities for my son. You’ll also find me experimenting with AI tools and side projects — anything that blends curiosity with creativity and makes everyday life a little smarter or more joyful.
 
 ---
 
-### _The Real Summary_
+### _**The Real Summary**_
 
 _I design water systems by day, build AI tools by night, and chase a toddler in between._  
+
 _If there’s a messy business problem, I’ll break it down._  
+
 _If there’s data, I’ll analyze it._  
+
 _And if there’s an opportunity to use AI to make life easier, I’m already building it._
 
 ---
@@ -23,19 +30,9 @@ _And if there’s an opportunity to use AI to make life easier, I’m already bu
 I also love connecting with people on similar paths. I regularly mentor students exploring engineering, product, AI, studying abroad, or making early-career decisions. I enjoy helping early-stage startups think through ideas, and I support NGOs and mission-driven teams whenever I can.
 
 If you’d like to chat, brainstorm, or explore mentorship, feel free to book a time — I’m usually available on weekends:  
+
 👉 **[Book a meeting with me](https://calendar.app.google/F2uy288Db6Jw7Mft8)**
 
 I’m excited for what comes next and grateful that our paths crossed here.
 
-highlights:
-- Structural engineer (water infrastructure)
-- NYU Stern MBA (Business Analytics, Strategy, Tech PM)
-- AI + analytics + strategy focus
-- Projects: custom GPTs, RAG tools, automations
-- Systems thinking with real-world impact
-- Builder, curious, empathetic
-interests:
-- AI tools and prototyping
-- Baking and hiking
-- Family and toddler activities
-
+---

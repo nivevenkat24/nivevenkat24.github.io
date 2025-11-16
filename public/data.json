@@ -3,18 +3,7 @@
     "name": "Nive Venkat",
     "tagline": "Structural Engineer → NYU Stern MBA (Business Analytics, Strategy, Technology Product Management)",
     "image": "assets/images/headshot.jpg",
-    "bio": "Hi! I’m **Nive** — engineer, AI builder, MBA candidate, and mom — and I’m happy you’re here.\nI started my career as a Structural Engineer, designing and managing water infrastructure systems that quietly keep entire cities running. What drew me to engineering back then is still true today: I love breaking down complexity, making sense of data, and building systems that work in the real world.\nIn 2023, I began my MBA at **NYU Stern**, specializing in Business Analytics, Strategy, and Technology Product Management. That’s where my curiosity for AI really took off. I became fascinated by how engineering logic, product thinking, and data-driven decision-making come together to create smarter, more resilient organizations.\nSince then, I’ve worked on projects ranging from AI-powered product design and climate-tech pricing models to construction-tech strategy and machine learning workflows. Across every space, one thing stays the same: I love turning ambiguity into structure, and structure into solutions people actually use.\nMotherhood has added an unexpected and meaningful layer to my journey. Balancing a full-time career, graduate school, and raising a tiny human taught me resilience, empathy, and the power of small, consistent progress. It changed how I lead, how I build, and what I value in the work I choose to do.\nOutside of work, you’ll find me baking something sweet, hiking with my family, or inventing new toddler activities for my son. You’ll also find me experimenting with AI tools and side projects — anything that blends curiosity with creativity and makes everyday life a little smarter or more joyful.\n---\n### _The Real Summary_\n_I design water systems by day, build AI tools by night, and chase a toddler in between._\n_If there’s a messy business problem, I’ll break it down._\n_If there’s data, I’ll analyze it._\n_And if there’s an opportunity to use AI to make life easier, I’m already building it._\n---\nI also love connecting with people on similar paths. I regularly mentor students exploring engineering, product, AI, studying abroad, or making early-career decisions. I enjoy helping early-stage startups think through ideas, and I support NGOs and mission-driven teams whenever I can.\nIf you’d like to chat, brainstorm, or explore mentorship, feel free to book a time — I’m usually available on weekends:\n👉 **[Book a meeting with me](https://calendar.app.google/F2uy288Db6Jw7Mft8)**\nI’m excited for what comes next and grateful that our paths crossed here.",
-    "highlights": [
-      "Structural engineer (water infrastructure)",
-      "NYU Stern MBA (Business Analytics, Strategy, Tech PM)",
-      "AI + analytics + strategy focus"
-    ],
-    "-_projects": "custom GPTs, RAG tools, automations",
-    "interests": [
-      "AI tools and prototyping",
-      "Baking and hiking",
-      "Family and toddler activities"
-    ]
+    "bio": "---\nHi! I’m **Nive** — engineer, AI builder, MBA candidate, and mom — and I’m happy you’re here. I started my career as a Structural Engineer, designing and managing water infrastructure systems that quietly keep entire cities running. What drew me to engineering back then is still true today: I love breaking down complexity, making sense of data, and building systems that work in the real world.\nIn 2023, I began my MBA at **NYU Stern**, specializing in Business Analytics, Strategy, and Technology Product Management. That’s where my curiosity for AI really took off. I became fascinated by how engineering logic, product thinking, and data-driven decision-making come together to create smarter, more resilient organizations.\nSince then, I’ve worked on projects ranging from AI-powered product design and climate-tech pricing models to construction-tech strategy and machine learning workflows. Across every space, one thing stays the same: I love turning ambiguity into structure, and structure into solutions people actually use.\nMotherhood has added an unexpected and meaningful layer to my journey. Balancing a full-time career, graduate school, and raising a tiny human taught me resilience, empathy, and the power of small, consistent progress. It changed how I lead, how I build, and what I value in the work I choose to do.\nOutside of work, you’ll find me baking something sweet, hiking with my family, or inventing new toddler activities for my son. You’ll also find me experimenting with AI tools and side projects — anything that blends curiosity with creativity and makes everyday life a little smarter or more joyful.\n---\n### _**The Real Summary**_\n_I design water systems by day, build AI tools by night, and chase a toddler in between._\n_If there’s a messy business problem, I’ll break it down._\n_If there’s data, I’ll analyze it._\n_And if there’s an opportunity to use AI to make life easier, I’m already building it._\n---\nI also love connecting with people on similar paths. I regularly mentor students exploring engineering, product, AI, studying abroad, or making early-career decisions. I enjoy helping early-stage startups think through ideas, and I support NGOs and mission-driven teams whenever I can.\nIf you’d like to chat, brainstorm, or explore mentorship, feel free to book a time — I’m usually available on weekends:\n👉 **[Book a meeting with me](https://calendar.app.google/F2uy288Db6Jw7Mft8)**\nI’m excited for what comes next and grateful that our paths crossed here.\n---"
   },
   "projects": [
     {
@@ -71,34 +60,7 @@
         "chromadb"
       ],
       "image": "assets/images/projects/fema-companion.jpg",
-      "overview": "A specialized AI tool built to help engineers and designers quickly interpret FEMA P-750 and NIST GCR seismic design guidelines.\nUsing natural language queries, users can ask questions like \"What are the criteria for Seismic Design Category D?\" or \"List response-modification factors for SMRFs,\" and instantly receive concise, cited explanations from the official design documents.",
-      "the_goal": "make seismic design knowledge accessible and searchable — transforming long, technical PDFs into a fast, intuitive, and interactive engineering companion.\nBuilt with the power of ChatGPT, OpenAI embeddings, and a Streamlit UI, FEMA Companion bridges the gap between technical codes and real-time understanding.",
-      "stack": [],
-      "-_data_source": "FEMA P-750 and NIST GCR public design manuals (PDF → text extraction)",
-      "-_query_engine": "OpenAI GPT interprets user questions, retrieves relevant text chunks, and generates concise, cited answers (e.g., [FEMA_P750.pdf p.12])",
-      "-_user_interface": "Streamlit app for free-form questions in plain English, contextual answers, and citation verification",
-      "-_architecture_layers": "Data (extraction & cleaning) • Embedding (OpenAI) • Retrieval (Chroma) • Response (GPT) • UI (Streamlit)",
-      "focus": [
-        "Accessibility – Converts static PDFs into an interactive, searchable knowledge base",
-        "Accuracy – Provides answers directly cited from the original code sections",
-        "Efficiency – Reduces time spent searching through manuals by over 80%"
-      ],
-      "target_users": [
-        "Structural engineers referencing FEMA/NIST design codes",
-        "Civil engineers and design reviewers needing quick lookups",
-        "Engineering students learning seismic design fundamentals"
-      ],
-      "impact": [
-        "Cuts reference lookup time from hours to seconds",
-        "Encourages code compliance by improving access to source guidance",
-        "Demonstrates practical AI integration for engineering knowledge systems"
-      ],
-      "future": [
-        "Add Ollama local model integration for fully offline use",
-        "Include design examples and formula lookups for educational use",
-        "Extend support to other design standards (ASCE 7-22, ACI 318, etc.)",
-        "Enable multi-document RAG with versioned FEMA updates"
-      ],
+      "overview": "### *Overview*\nA Retrieval-Augmented Generation (RAG) tool that makes\n**FEMA P-750** and **NIST GCR 2016** seismic design guidelines fully searchable. The system enables engineers to ask natural-language questions and receive precise, citation-backed answers.\n---\n### **Problem**\nSeismic codes are dense, technical, and difficult to navigate.\nEngineers spend significant time manually searching hundreds of pages, often missing important clauses. No existing solution provides fast, authoritative, clause-level lookup grounded directly in source documents.\n---\n### **Architecture Diagram (High-Level RAG Pipeline)**\n```mermaid\nflowchart LR\nA[User] --> B[Query Handler]\nB --> C[Vector Search]\nC --> D[\"Document Chunks <br> (FEMA / NIST)\"]\nD --> E[Embeddings]\nE --> F[LLM Reasoning]\nF --> G[\"Final Answer<br>+ Citations\"]\n```\n---\n### **Tech Stack**\n- LangChain\n- ChromaDB\n- OpenAI embeddings\n- GPT models\n- Python / Streamlit\n- PDF parsing with `pypdf`\n---\n### **Key Challenges**\n- Designing chunk sizes for technical engineering text\n- Preventing LLM hallucinations with strict grounding constraints\n- Ensuring consistent citation mapping\n- Handling mixed-format engineering documents\n---\n### **What I Learned**\n- How to build a complete RAG system end-to-end\n- How retrieval quality affects answer accuracy and trustworthiness\n- How to design usable AI tools for domain experts\n- How to enforce accuracy and grounding in engineering workflows\n---",
       "links": [],
       "-_demo": "",
       "-_repo": "",
@@ -160,5 +122,5 @@
     ],
     "download": "assets/resume/Nive_Venkat.pdf"
   },
-  "generatedAt": "2025-11-15T22:58:36.895Z"
+  "generatedAt": "2025-11-16T02:34:42.808Z"
 }
