@@ -18,16 +18,69 @@ export async function renderProjects(root) {
   root.appendChild(header);
 
   const grid = el(`<section class="grid"></section>`);
+
+  // Filter UI
+  const categories = [
+    "All",
+    "AI / Machine Learning Projects",
+    "Product Management + UX",
+    "Data + Business Analytics / BI Systems",
+    "Strategy & Consulting Projects"
+  ];
+
+  const filterContainer = el(`<div class="filter-container" style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:24px;"></div>`);
+
+  categories.forEach(cat => {
+    const btn = el(`<button class="chip ${cat === 'All' ? 'active' : ''}" style="cursor:pointer;font-size:14px;padding:8px 16px;">${cat}</button>`);
+    btn.addEventListener('click', () => {
+      // Update active state
+      filterContainer.querySelectorAll('.chip').forEach(b => {
+        b.classList.remove('active');
+        b.style.borderColor = 'var(--card-border)';
+        b.style.color = 'var(--muted)';
+      });
+      btn.classList.add('active');
+      btn.style.borderColor = 'var(--accent)';
+      btn.style.color = 'var(--accent)';
+
+      // Filter grid
+      grid.innerHTML = '';
+      const filtered = cat === 'All'
+        ? projects
+        : projects.filter(p => (p.categories || []).includes(cat));
+
+      renderGrid(filtered, grid);
+    });
+    filterContainer.appendChild(btn);
+  });
+
+  // Initial active style
+  const allBtn = filterContainer.firstElementChild;
+  allBtn.style.borderColor = 'var(--accent)';
+  allBtn.style.color = 'var(--accent)';
+
+  root.appendChild(filterContainer);
   root.appendChild(grid);
 
+  renderGrid(projects, grid);
+}
+
+function renderGrid(projects, grid) {
+  if (!projects.length) {
+    grid.innerHTML = `<p class="muted">No projects found in this category.</p>`;
+    return;
+  }
   projects.forEach(p => {
     const img = p.image || 'assets/images/project-placeholder.svg';
     const card = el(`
       <article class="card glass">
-        <img class="project-image" loading="lazy" decoding="async" src="${img}" alt="${p.title || 'Project'}" />
-        <h3>${p.title || 'Untitled Project'}</h3>
-        ${p.subtitle ? `<p class="muted">${renderInlineMarkdown(p.subtitle)}</p>` : ''}
-        <div class="chips">${(p.tags || []).map(t => `<span class='chip'>${t}</span>`).join('')}</div>
+        <img src="${img}" alt="${p.title || 'Project'}" />
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:0.5rem;">
+            <h3 style="margin:0;">${p.title || 'Untitled Project'}</h3>
+            ${p.date ? `<span style="font-size:0.8rem;color:var(--muted);white-space:nowrap;margin-left:8px;">${p.date}</span>` : ''}
+        </div>
+        <p>${p.subtitle || ''}</p>
+        <div class="chips">${(p.tags || []).slice(0, 3).map(t => `<span class='chip'>${t}</span>`).join('')}</div>
       </article>
     `);
     grid.appendChild(card);
@@ -53,11 +106,13 @@ function showProjectModal(p) {
         <h3 style="margin:0">${p.title || ''}</h3>
         <button class="button" id="closeModal">Close</button>
       </div>
-      ${p.image ? `<img class='project-image project-modal-img' src='${p.image}' alt='${p.title || ''}' />` : ''}
-      ${(p.tags || []).length ? `<div class='chips' style='margin:6px 0 10px;'>${(p.tags || []).map(t => `<span class='chip'>${renderInlineMarkdown(t)}</span>`).join('')}</div>` : ''}
-      ${p.overview ? `<div class='muted'>${renderMarkdown(p.overview)}</div>` : ''}
-      ${p.demo_gif || p.gif ? `<img class='project-image project-demo-img' src='${p.demo_gif || p.gif}' alt='${p.title || ''} demo' />` : ''}
+      ${p.image ? `<img src='${p.image}' alt='' style='width:100%;height:260px;object-fit:cover;border-radius:12px;margin:12px 0;' />` : ''}
+      ${p.overview ? `<div class='section'><h2>Overview</h2><p class='muted'>${p.overview.replace(/\n/g, '<br/>')}</p></div>` : ''}
+      ${p.problem ? `<div class='section'><h2>Problem</h2><p class='muted'>${p.problem.replace(/\n/g, '<br/>')}</p></div>` : ''}
+      ${p.architecture ? `<div class='section'><h2>Architecture</h2><pre style='background:rgba(0,0,0,0.05);padding:12px;border-radius:8px;overflow-x:auto;'><code>${p.architecture}</code></pre></div>` : ''}
       ${section('Stack', p.stack)}
+      ${section('Key Challenges', p.challenges)}
+      ${section('What I Learned', p.learned)}
       ${section('Focus', p.focus)}
       ${section('Target Users', p.target_users)}
       ${section('Impact', p.impact)}

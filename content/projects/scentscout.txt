@@ -1,0 +1,31 @@
+title: ScentScout — Perfume Aggregator
+subtitle: Smart Fragrance Marketplace Strategy
+date: Dec 2025
+tags: business-plan, aggregator, strategy, marketplace
+categories: Strategy & Consulting Projects, Product Management + UX
+image: assets/images/project-placeholder.svg
+overview:
+A data-driven business plan for **ScentScout**, a platform designed to help fragrance enthusiasts find the best deals on luxury perfumes by aggregating listings from high-volume sellers.
+
+**The Solution**
+A curated marketplace that vets sellers, tracks price drops, and guarantees authenticity.
+- **Vets Sellers**: Only lists items from verified hubs (Dallas, NJ).
+- **Price Tracking**: Alerts for "Price Mistakes" on top brands.
+- **Revenue Model**: Affiliate commissions + Premium subscriptions ($5/mo).
+
+problem:
+**The Problem**
+- **High Retail Markups**: Luxury perfumes have massive markups in retail.
+- **Fragmented Grey Market**: Affordable authentic perfumes exist on eBay, but finding trustworthy sellers is difficult.
+- **Opaque Pricing**: Prices vary by 50%+ depending on the seller and location.
+
+stack:
+- Business Strategy
+- Market Analysis
+- Revenue Modeling
+- Operational Planning
+
+impact:
+- Designed a scalable aggregator model with low inventory risk.
+- Identified key logistics hubs (Dallas, NJ, Brooklyn) for supply partnerships.
+- Created a 3-phase operational roadmap from MVP to international expansion.

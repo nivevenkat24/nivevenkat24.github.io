@@ -1,0 +1,43 @@
+title: Life Expectancy Regression Analysis
+subtitle: Statistical modeling of health outcomes (Regression + Minitab)
+date: Dec 2025
+tags: statistics, regression, data-analysis, health-economics
+categories: Data + Business Analytics / BI Systems
+image: assets/images/project-placeholder.svg
+overview:
+Conducted a full statistical analysis to understand how BMI and years of schooling influence global life expectancy using WHO and Kaggle data. Applied scatterplots, descriptive statistics, normality tests, simple regression, multiple regression, and model selection criteria (AICC & Adjusted R²).
+
+problem:
+**The Problem**
+Countries struggle to identify which socio-economic factors most strongly impact population health. Life expectancy varies widely across nations, and policymakers need clear, quantitative guidance on which levers—education, lifestyle, or healthcare—drive outcomes.
+
+architecture:
+flowchart LR
+    A[WHO Life Expectancy Dataset] --> B[Scatterplots & Outlier Detection]
+    B --> C[Normality Tests & Transformations]
+    C --> D[Simple Regression Models]
+    C --> E[Multiple Regression Model]
+    E --> F[Model Comparison (AICC, Adj R²)]
+    F --> G[Insights for Policy & Intervention]
+
+stack:
+- Minitab (regression, normality testing, visual diagnostics)
+- Excel (initial cleaning & scatterplots)
+- Simple & multiple linear regression
+- AICC model selection
+- Residual & leverage diagnostics
+- Statistical inference (p-values, confidence intervals)
+
+challenges:
+- Response variable (Life Expectancy) not normally distributed
+- Non-constant variance in residual plots
+- BMI had weak explanatory power compared to schooling
+- Outliers (e.g., Sierra Leone) skewing model behavior
+- Choosing the best model when predictors were correlated
+
+learned:
+- Schooling is a far stronger predictor of life expectancy than BMI
+- Multiple regression improves explanatory power significantly
+- Outlier and normality checks are critical for reliable inference
+- Model selection requires balancing statistics with theory
+- Socio-economic enablers (education, health spending) matter more than BMI alone

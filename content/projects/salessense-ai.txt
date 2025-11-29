@@ -1,59 +1,28 @@
 title: SalesSense AI
 subtitle: Real-time sales intelligence agent (RAG + automation)
-tags:
-- n8n
-- openai
-- engineering
-- ollama
-image: assets/images/projects/sales-sense-ai.png
-overview: 
-
-### **Overview**
-
-A RAG-powered AI agent that analyzes sales files, embeds them into a vector database, and enables conversational analysis of KPIs, performance trends, and competitor insights.
----
-
-### **Problem**
-
-Sales ops teams deal with scattered PDFs, Excel files, and decks. Answering even basic questions about growth or retention requires time-consuming manual work.
-
-### **Architecture Diagram (Sales RAG System)**
-
-```mermaid
-flowchart LR
-    A[Drive Folder] --> B[n8n Ingestion Pipeline]
-    B --> C[Embedding Pipeline]
-    C --> D[Vector DB]
-    D --> E[LLM Answer Engine]
-    E --> F[Chat UI]
-```
----
-### **Tech Stack**
-- Python
-- n8n automation
-- Pinecone
-- LangChain
-- GPT models
-- Streamlit UI
-
----
-
-### **Key Challenges**
-- Normalizing unstructured sales files
-- Ensuring accurate KPI extraction
-- Updating embeddings as new files arrive
-- Avoiding hallucinations when data is missing
-
----
-
-### **What I Learned**
-- How to operationalize data ingestion for business users
-- How RAG behaves with structured vs. unstructured data
-- How to design explainability into business AI tools
-- How to balance transparency with speed
-
----
-
+tags: rag, n8n, pinecone, streamlit, analytics
+categories: AI / Machine Learning Projects, Data + Business Analytics / BI Systems
+image: assets/images/projects/salessense-ai.jpg
+overview: An AI-powered Sales Intelligence Agent that transforms raw sales data and reports into conversational insights. An n8n automation monitors a Drive/CRM export folder for new files, ingests and embeds them into a vector database, and enables users to ask questions like “How close are we to this month’s goal?”. Produces cited, KPI-grounded responses and scheduled “Sales Snapshot” emails.
+stack:
+- n8n automation layer for file change detection
+- Data normalization for CSVs, Sheets, PDFs
+- OpenAI embeddings stored in Pinecone
+- GPT query engine with cited, KPI-focused answers
+- Streamlit chat UI and summaries
+focus:
+- Visibility: Access key sales insights instantly
+- Traceability: Every answer cites source data
+- Proactivity: Scheduled performance summaries
+target_users:
+- Sales and business managers tracking monthly goals
+- Operations analysts compiling regional reports
+- Executives seeking at-a-glance revenue insights
+- Strategy teams aligning OKRs with metrics
+impact:
+- Reduces manual report compilation time by ~80%
+- Delivers live insights grounded in company data
+- Enables data-driven decisions faster
 links:
 - demo: 
 - repo: 

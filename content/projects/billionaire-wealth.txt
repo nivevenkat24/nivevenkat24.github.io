@@ -1,0 +1,44 @@
+title: Billionaire Wealth & Economic Trends Dashboard
+subtitle: Global wealth analytics (Tableau + economic indicators)
+date: Dec 2025
+tags: data-visualization, tableau, economics, storytelling
+categories: Data + Business Analytics / BI Systems
+image: assets/images/project-placeholder.svg
+overview:
+Built an interactive Tableau dashboard analyzing billionaire demographics, wealth distribution, and economic indicators using a global dataset. The visual story highlights industry dominance, age and gender patterns, and economic relationships across GDP, CPI, tax rates, and billionaire concentration.
+
+problem:
+**The Problem**
+Policymakers and business analysts struggle to understand how billionaire wealth evolves across industries, countries, and economic conditions. The dataset is large and multi-dimensional, requiring clean visual storytelling to extract trends and support economic insight.
+
+architecture:
+flowchart LR
+    A[Raw Kaggle Dataset] --> B[Data Cleaning in Tableau Prep]
+    B --> C[Tableau Dashboards]
+    C --> D[Industry & Country Visuals]
+    C --> E[Demographics]
+    C --> F[Economic Indicators]
+    F --> G[Insights & Trend Story]
+
+stack:
+- Tableau Desktop (multi-chart dashboard design)
+- Tableau Story (narrative insights)
+- Exploratory charts: bar charts, scatter plots, maps, heatmaps
+- KPI segmentation (industry, gender, age, country)
+- Economic correlation analysis (GDP, CPI, tax rates)
+
+challenges:
+- Combining demographic, industry, and economic variables into one narrative
+- Designing intuitive visual comparisons across countries and industries
+- Showing economic correlations without overfitting the visuals
+- Ensuring clarity while integrating multiple dashboards (country, demographics, macro trends)
+
+learned:
+- How to blend demographic and economic indicators in a unified visual story
+- How to apply visual hierarchy to guide users through complex insights
+- How to interpret GDP/CPI relationships using scatter and regression visuals
+- How emerging markets (India, China) shift global billionaire distribution
+
+links:
+- demo: https://stream.nyu.edu/media/Venkat_Nive_assignment02_video+/1_6u857er9
+- repo: https://www.kaggle.com/datasets/nelgiriyewithana/billionaires-statistics-dataset

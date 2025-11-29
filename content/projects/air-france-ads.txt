@@ -1,0 +1,36 @@
+title: Air France Search Advertising Optimization
+subtitle: Performance Analytics (Excel + STATA)
+date: Dec 2025
+tags: analytics, marketing, excel, stata, roi
+categories: Data + Business Analytics / BI Systems
+image: assets/images/project-placeholder.svg
+overview:
+Analyzed Air France’s paid search advertising performance to identify which keywords, campaigns, and landing pages drive clicks, conversions, and revenue. Used CTR–TCR bubble charts and keyword tables to diagnose performance gaps and optimization opportunities.
+
+problem:
+**The Problem**
+Despite high click-through activity, 94% of searches resulted in zero bookings, revealing a major breakdown between ad engagement and conversion. Air France needed data-backed insights to improve landing page performance, keyword ROI, and budget allocation.
+
+architecture:
+flowchart LR
+Raw Search Data → Excel Cleaning → CTR/TCR Modeling → Keyword ROI Analysis 
+→ Insights → Ad & Landing Page Optimization Strategy
+
+stack:
+- Excel (cleaning, pivot tables, visualizations)
+- STATA (regressions, KPI analysis)
+- Regression & KPI modeling
+- CTR/TCR analytics
+- ROI & CPC analysis
+
+challenges:
+- High CTR but zero-conversion keywords
+- Large variance in CPC across brand vs generic keywords
+- Branded campaigns massively outperforming geo-targeted campaigns
+- Identifying the correct optimization levers (landing page vs keyword quality)
+
+learned:
+- How to combine CTR, TCR, CPC, and ROI to diagnose funnel performance
+- How branded keywords deliver higher intent and significantly better ROI
+- How visual modeling (bubble charts) reveals hidden performance clusters
+- How to translate marketing analytics into campaign strategy recommendations

@@ -1,0 +1,36 @@
+title: Search Engine Ad Ranking Model
+subtitle: Paid Search ML-Style Analytics (STATA)
+date: Dec 2025
+tags: analytics, machine-learning, stata, predictive-modeling
+categories: Data + Business Analytics / BI Systems
+image: assets/images/project-placeholder.svg
+overview:
+Designed regression models to predict ad rank using key auction variables including CTR, bid price, ad quality, landing page quality, retailer/brand presence, and daily effects. Achieved high explanatory power for CTR (Adj. R² = 0.91) and strong improvements in Ad Rank prediction when incorporating date effects.
+
+problem:
+**The Problem**
+Brands waste ad spend because they don’t know which factors actually improve their paid search ranking. Understanding what drives Google Ad Rank helps optimize bidding, creative, and landing page strategy.
+
+architecture:
+flowchart LR
+Ad Performance Data → Log Transformations → OLS Model (CTR Drivers) 
+→ OLS Model (Ad Rank) → Date Fixed Effects Model → Optimization Strategy
+
+stack:
+- STATA (OLS regressions, fixed effects modeling)
+- Excel (data prep & summaries)
+- CTR & Ad Rank predictive modeling
+- Log-transformation for elasticity interpretation
+- Model comparison (baseline vs date-adjusted model)
+
+challenges:
+- Very strong autocorrelation (lagged CTR dominates predictions)
+- Low R² for initial Ad Rank model due to missing time-based factors
+- Non-significant variables (ad quality, landing quality) despite theoretical importance
+- Identifying daily search competition effects using fixed-effects modeling
+
+learned:
+- CTR is primarily driven by past CTR (reinforcement effect)
+- Bid price, CTR, brand presence, and retailer names are strong Ad Rank drivers
+- Daily variations significantly change Ad Rank, improving model accuracy by +7.5%
+- How to translate statistical modeling into actionable paid search recommendations

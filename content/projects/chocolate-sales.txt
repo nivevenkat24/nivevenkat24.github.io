@@ -1,0 +1,27 @@
+title: Chocolate Sales Insights Report
+subtitle: Sales Analysis & Forecasting
+date: Nov 2025
+tags: python, pandas, seaborn, analytics
+categories: Data + Business Analytics / BI Systems
+image: assets/images/project-placeholder.svg
+overview:
+Analyzed a dataset of 5,000+ sales records to identify key revenue drivers and market trends.
+
+**Findings**
+- **Sales Forecasting**: The dataset covers a period showing a significant decline in sales volume (-86.11%). Immediate intervention is required.
+- **Customer Behavior**: Top markets are Australia, UK, and India. Marketing efforts should be concentrated here.
+- **Market Trends**: Tastes vary significantly by region (e.g., Australia prefers 50% Dark Bites, UK prefers Peanut Butter Cubes).
+
+problem:
+**Business Problem**
+The business faced a significant decline in sales volume (-86.11% from start to end of the recorded period). There was a critical need to investigate external market factors or internal operational issues and optimize inventory, pricing, and marketing strategies.
+
+stack:
+- Python
+- Pandas (Data Cleaning & Analysis)
+- Seaborn (Visualization)
+
+impact:
+- Developed a data cleaning pipeline using Pandas to handle inconsistent currency formatting and date parsing, improving data quality by 100%.
+- Created interactive visualizations with Seaborn to showcase monthly sales trends and top-performing products, providing actionable insights for inventory management.
+- Automated the data acquisition and reporting process, reducing manual analysis time.

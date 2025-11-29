@@ -1,0 +1,43 @@
+title: HR Analytics Dashboard
+subtitle: Workforce insights (Tableau + HR metrics)
+date: Dec 2025
+tags: tableau, hr-analytics, data-visualization
+categories: Data + Business Analytics / BI Systems
+image: assets/images/project-placeholder.svg
+overview:
+Designed an interactive Tableau HR Insights Dashboard showcasing employee performance, salary distribution, engagement levels, and attrition patterns. The dashboard enables leaders to explore workforce trends and uncover actionable insights for retention and performance management.
+
+problem:
+**The Problem**
+HR teams and senior leadership often lack a unified view of workforce data. Disconnected systems make it difficult to understand turnover, performance gaps, and compensation fairness. This dashboard consolidates critical HR metrics into a single, intuitive interface.
+
+architecture:
+flowchart LR
+    A[Employee Dataset] --> B[Data Cleaning in Tableau Prep]
+    B --> C[Tableau Dashboard Build]
+    C --> D[Salary Visualization]
+    C --> E[Performance Scoring]
+    C --> F[Engagement & Satisfaction Metrics]
+    F --> G[Insights for HR Strategy]
+
+stack:
+- Tableau Desktop (interactive charts + filters)
+- Employee segmentation (department, gender, performance)
+- KPI visualizations (attrition, satisfaction, salary ranges)
+- Calculated fields for performance/engagement scores
+- Dashboard actions + filters for cross-interaction
+
+challenges:
+- Balancing simplicity with detail across multiple HR metrics
+- Designing comparisons across departments with uneven sample sizes
+- Showing engagement and satisfaction ratings clearly across diverse ranges
+- Ensuring HR leaders can quickly drill down into specific employee segments
+
+learned:
+- How to design HR dashboards tailored for executives
+- How to blend performance, salary, and engagement metrics
+- How visual comparisons help uncover patterns tied to attrition
+- How to create an end-to-end Tableau workflow from raw data to dashboard story
+
+links:
+- demo: https://public.tableau.com/app/profile/nivedithaa.venkatanarayanasami/viz/Assignment1_NiveVenkat/Nive_Venkat?publish=yes

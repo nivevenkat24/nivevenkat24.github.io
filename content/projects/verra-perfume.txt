@@ -1,0 +1,48 @@
+title: Verra — Sustainable Luxury Brand
+subtitle: AI-Driven Brand Development
+date: Dec 2025
+tags: brand-strategy, product-design, ai-generated, business-plan
+categories: Product Management + UX, Strategy & Consulting Projects
+image: assets/images/project-placeholder.svg
+overview:
+Developed a complete luxury perfume brand from concept to market-ready pitch using generative AI and data analytics. The project combined strategic market analysis with AI-powered creativity to create a full brand ecosystem.
+
+**The Brand: Verra**
+*Tagline*: Grounded in Truth
+*Positioning*: Sustainable Minimalist Luxury for Modern Conscious Youth
+*Product*: Verra 01: Rooted — A woody citrus Eau de Parfum ($145)
+
+**Process**
+1. **Identity**: Used ChatGPT to generate names and taglines, selecting "Verra" (Truth + Earth).
+2. **Visuals**: Created a minimalist, embossed logo and packaging concepts using Leonardo.ai.
+3. **Data**: Analyzed 2,000 eBay listings to identify the "Affordable Luxury" gap ($43-$54 avg).
+4. **Product**: Designed the scent profile (Bergamot, Vetiver, Cedarwood) and zero-waste packaging (Mushroom mycelium).
+5. **Campaign**: Developed the "#MyScentTruth" marketing campaign and pop-up launch strategy.
+
+problem:
+**The Problem**
+Traditional luxury fragrance brands lack transparency, while clean beauty brands often sacrifice luxury aesthetics. There was no brand serving the "Byredo for the Eco-Conscious" niche—offering premium design, emotional storytelling, and radical sustainability.
+
+architecture:
+flowchart LR
+    Concept[AI Concept Generation] --> Identity[Brand Identity: Verra]
+    Identity --> Data[Market Analysis: Kaggle Dataset]
+    Data --> Product[Product Dev: Verra 01 Rooted]
+    Product --> Campaign[Marketing: #MyScentTruth]
+    Campaign --> Pitch[Investor Pitch: $500k Seed]
+
+stack:
+- ChatGPT (Strategy & Copy)
+- Leonardo.ai (Visual Assets)
+- Python/Pandas (Market Data Analysis)
+- Kaggle Datasets
+
+challenges:
+- Balancing luxury aesthetics with zero-waste materials
+- Differentiating from established "clean" brands like Henry Rose
+- Justifying the $145 price point with data-driven insights
+
+learned:
+- How to use AI as a creative partner for brand building
+- The importance of data in validating creative decisions
+- How to structure a comprehensive business pitch for a CPG product

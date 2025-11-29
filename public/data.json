@@ -3,12 +3,14 @@
     "name": "I'm Nive!",
     "tagline": "Engineer, AI builder, MBA candidate, and Mom.",
     "image": "assets/images/headshot.jpg",
-    "bio": "_Structural Engineer_ → _NYU Stern MBA (Business Analytics, Strategy, Technology Product Management)_\n---\nI started my career as a Structural Engineer, designing and managing water infrastructure systems that quietly keep entire cities running. What drew me to engineering back then is still true today: I love breaking down complexity, making sense of data, and building systems that work in the real world.\nIn 2023, I began my MBA at **NYU Stern**, specializing in Business Analytics, Strategy, and Technology Product Management. That’s where my curiosity for AI really took off. I became fascinated by how engineering logic, product thinking, and data-driven decision-making come together to create smarter, more resilient organizations.\nSince then, I’ve worked on projects ranging from AI-powered product design and climate-tech pricing models to construction-tech strategy and machine learning workflows. Across every space, one thing stays the same: I love turning ambiguity into structure, and structure into solutions people actually use.\nMotherhood has added an unexpected and meaningful layer to my journey. Balancing a full-time career, graduate school, and raising a tiny human taught me resilience, empathy, and the power of small, consistent progress. It changed how I lead, how I build, and what I value in the work I choose to do.\nOutside of work, you’ll find me baking something sweet, hiking with my family, or inventing new toddler activities for my son. You’ll also find me experimenting with AI tools and side projects — anything that blends curiosity with creativity and makes everyday life a little smarter or more joyful.\n---",
-    "tldr": "### _**tl;dr**_\n_I design water systems by day, build AI tools by night, and chase a toddler in between._\n_If there’s a messy business problem, I’ll break it down._\n_If there’s data, I’ll analyze it._\n_And if there’s an opportunity to use AI to make life easier, I’m already building it._\n---",
-    "roles": [
-      "Product Management",
-      "Strategy & Operations",
-      "Applied AI"
+    "bio": "Hi! I’m Nive — engineer, AI builder, MBA candidate, and mom — and I’m happy you’re here.\nFor the past several years, I’ve worked as a Structural Engineer, designing and managing complex water infrastructure projects that keep communities running. I’ve always loved the process of solving problems — breaking them down, analyzing data, and building systems that work in the real world.\nIn 2023, I began my MBA at NYU Stern, specializing in Business Analytics, Strategy, and Technology Product Management. Since then, I’ve focused on how AI, analytics, and business strategy come together to shape smarter, more resilient organizations. I’ve led and contributed to projects ranging from AI-driven product design to carbon credit pricing models and digital transformation strategies for sustainability-focused companies.\nThat blend of engineering precision, business judgment, and tech curiosity is what drives me — whether I’m evaluating a business model, analyzing market data, or designing scalable systems for decision-making.\nBecoming a mom has also shaped the way I see work and purpose. Balancing parenthood, a full-time career, and graduate school has taught me resilience, empathy, and the power of small, consistent steps toward big goals.\nWhen I’m not building systems or studying case frameworks, you’ll usually find me baking something sweet, hiking with my family, or creating new toddler activities for my son. I also love experimenting with AI tools and side projects that make everyday life a little smarter and more joyful.\nI design water systems by day, build AI tools by night, and chase a toddler in between. If there’s a messy business problem, I’ll break it down. If there’s data, I’ll analyze it. And I’m always exploring new ways to use AI to make life a little easier.",
+    "highlights": [
+      "Structural engineer (water infrastructure)",
+      "NYU Stern MBA (Business Analytics, Strategy, Tech PM)",
+      "AI + analytics + strategy focus",
+      "Projects: custom GPTs, RAG tools, automations",
+      "Systems thinking with real-world impact",
+      "Builder, curious, empathetic"
     ],
     "interests": [
       "AI tools and prototyping",
@@ -22,9 +24,18 @@
       "subtitle": "Automated weekly digest of top emails with AI",
       "tags": [
         "n8n",
+        "gmail",
         "openai",
-        "engineering",
-        "ollama"
+        "automation"
+      ],
+      "image": "assets/images/project-placeholder.svg",
+      "overview": "A fully automated email summarizer built using n8n that reads the top 50 emails from a user’s inbox, categorizes key themes, extracts to-do items, and delivers a weekly summary email with highlights and actionable next steps. It connects with Gmail, uses OpenAI for intelligent summarization, and compiles the output into a clean, readable digest sent every Monday.",
+      "stack": [
+        "n8n workflow automation platform",
+        "Cron trigger (Mondays 8 AM EST)",
+        "Gmail API for email retrieval",
+        "OpenAI API for summarization and extraction",
+        "Email node for digest delivery"
       ],
       "image": "assets/images/projects/email-summarizer.png",
       "overview": "### **Overview**\nA fully automated email intelligence agent that reads the top 50 emails each week, extracts themes, action items, and reminders, and sends a structured summary to the user.\n---\n### **Problem**\nProfessionals spend hours triaging inboxes, often missing critical to-dos hidden inside long threads. A lightweight, automated summarizer can dramatically reduce cognitive load and improve task prioritization.---\n### **Architecture Diagram (High-Level RAG Pipeline)**\n```mermaid\nflowchart LR\nCron[Weekly Cron Trigger] --> Gmail[\"Fetch 50 Emails\"]\nGmail --> LLM[\"OpenAI Summarizer\"]\nLLM --> Organizer[\"Categorize: Highlights / To-Dos / Reminders\"]\nOrganizer --> EmailNode[Email Sender]\nEmailNode --> User\n```\n---\n### **Tech Stack**\n- n8n\n- Gmail API\n- GPT models\n- Cron schedules\n- Email node (SMTP)\n---\n### **Key Challenges**\n- Avoiding invented tasks (\"hallucinated action items\")\n- Handling duplicate content in long threads\n- Designing summaries that work on mobile\n- Ensuring reliable weekly execution\n---\n### **What I Learned**\n- How to design multi-step agentic workflows\n- How prompt engineering affects action-item extraction\n- How to balance completeness and brevity\n- How to deliver recurring automation with reliability\n---",
@@ -44,6 +55,15 @@
         "openai",
         "chromadb"
       ],
+      "image": "assets/images/project-placeholder.svg",
+      "overview": "A specialized AI tool built to help engineers and designers quickly interpret FEMA P-750 and NIST GCR seismic design guidelines. Using natural language queries, users can ask questions like \"What are the criteria for Seismic Design Category D?\" or \"List response-modification factors for SMRFs,\" and instantly receive concise, cited explanations from the official design documents. The goal: make seismic design knowledge accessible and searchable — transforming long, technical PDFs into a fast, intuitive, and interactive engineering companion. Built with the power of ChatGPT, OpenAI embeddings, and a Streamlit UI, FEMA Companion bridges the gap between technical codes and real-time understanding.",
+      "stack": [
+        "Data Source: FEMA P-750 and NIST GCR public design manuals (PDF → text extraction)",
+        "Embedding & Indexing: OpenAI embeddings; stored and indexed locally in ChromaDB for fast vector retrieval",
+        "Query Engine: OpenAI GPT interprets user questions, retrieves relevant text chunks, and generates concise, cited answers (e.g., [FEMA_P750.pdf p.12])",
+        "User Interface: Streamlit app for free-form questions, contextual answers, and citation verification",
+        "Architecture Layers: Data (extraction & cleaning) • Embedding (OpenAI) • Retrieval (Chroma) • Response (GPT) • UI (Streamlit)"
+      ],
       "image": "assets/images/projects/fema-companion.jpg",
       "overview": "### *Overview*\nA Retrieval-Augmented Generation (RAG) tool that makes\n**FEMA P-750** and **NIST GCR 2016** seismic design guidelines fully searchable. The system enables engineers to ask natural-language questions and receive precise, citation-backed answers.\n---\n### **Problem**\nSeismic codes are dense, technical, and difficult to navigate.\nEngineers spend significant time manually searching hundreds of pages, often missing important clauses. No existing solution provides fast, authoritative, clause-level lookup grounded directly in source documents.\n---\n### **Architecture Diagram (High-Level RAG Pipeline)**\n```mermaid\nflowchart LR\nA[User] --> B[Query Handler]\nB --> C[Vector Search]\nC --> D[\"Document Chunks <br> (FEMA / NIST)\"]\nD --> E[Embeddings]\nE --> F[LLM Reasoning]\nF --> G[\"Final Answer<br>+ Citations\"]\n```\n---\n### **Tech Stack**\n- LangChain\n- ChromaDB\n- OpenAI embeddings\n- GPT models\n- Python / Streamlit\n- PDF parsing with `pypdf`\n---\n### **Key Challenges**\n- Designing chunk sizes for technical engineering text\n- Preventing LLM hallucinations with strict grounding constraints\n- Ensuring consistent citation mapping\n- Handling mixed-format engineering documents\n---\n### **What I Learned**\n- How to build a complete RAG system end-to-end\n- How retrieval quality affects answer accuracy and trustworthiness\n- How to design usable AI tools for domain experts\n- How to enforce accuracy and grounding in engineering workflows\n---",
       "demo_gif": "assets/images/projects/fema-companion.gif",
@@ -54,11 +74,23 @@
       "slug": "fema-companion"
     },
     {
-      "title": "ParentPal – Custom GPT",
-      "subtitle": "AI knowledge assistant for seismic design (RAG)",
+      "title": "ParentPal",
+      "subtitle": "Custom GPT for trustworthy parenting guidance",
       "tags": [
-        "openai",
-        "customGPT"
+        "gpt",
+        "parenting",
+        "healthcare",
+        "aap"
+      ],
+      "image": "assets/images/project-placeholder.svg",
+      "overview": "A custom GPT designed to support new parents with trustworthy, evidence-based information about child health, safety, and development. The bot guides users to reliable resources from the AAP via HealthyChildren.org and answers with warmth, clarity, and verified links.",
+      "stack": [
+        "OpenAI Custom GPT builder",
+        "Strict source querying to HealthyChildren.org",
+        "Empathetic, structured response style",
+        "Scope guardrails",
+        "Bilingual awareness",
+        "Age-based navigation"
       ],
       "image": "assets/images/projects/parentpal-gpt.png",
       "overview": "### *Overview*\nParentPal is an empathetic, safety-aligned AI parenting assistant grounded entirely in HealthyChildren.org (American Academy of Pediatrics). It delivers reliable, age-appropriate guidance for new parents.\n---\n### **Problem**\nParents are overwhelmed by contradictory online information. They need trusted, source-based advice—and AI models require strict guardrails to avoid unsafe recommendations.---\nArchitecture Diagram (Custom GPT with Safety Layer)\n```mermaid\nflowchart LR\nUser --> GPT[Custom GPT]\nGPT --> Rules[\"System Prompt: Safety + AAP-only Sources\"]\nRules --> Healthy[HealthyChildren.org Articles]\nHealthy --> GPT\nGPT --> User\n```\n---\n### **Tech Stack**\n- OpenAI Custom GPT builder\n- Safety guardrails + structured prompts\n- HealthyChildren.org\n- Retrieval constraints\n---\n### **Key Challenges**\n- Enforcing strict guardrails for medical-adjacent topics\n- Designing empathetic yet factual responses\n- Ensuring citations map to approved AAP content\n- Maintaining consistency across age groups\n---\n### **What I Learned**\n- How to design AI for safety-critical domains\n- How to structure system prompts with constraints\n- How to build trust through transparency\n- How empathy shapes UX in family-oriented tools\n---",
@@ -73,10 +105,20 @@
       "title": "SalesSense AI",
       "subtitle": "Real-time sales intelligence agent (RAG + automation)",
       "tags": [
+        "rag",
         "n8n",
-        "openai",
-        "engineering",
-        "ollama"
+        "pinecone",
+        "streamlit",
+        "analytics"
+      ],
+      "image": "assets/images/project-placeholder.svg",
+      "overview": "An AI-powered Sales Intelligence Agent that transforms raw sales data and reports into conversational insights. An n8n automation monitors a Drive/CRM export folder for new files, ingests and embeds them into a vector database, and enables users to ask questions about revenue, targets, and growth.",
+      "stack": [
+        "n8n automation for file detection",
+        "Data normalization for CSVs, Sheets, PDFs",
+        "OpenAI embeddings stored in Pinecone",
+        "GPT query engine with cited, KPI-focused answers",
+        "Streamlit chat UI"
       ],
       "image": "assets/images/projects/sales-sense-ai.png",
       "overview": "### **Overview**\nA RAG-powered AI agent that analyzes sales files, embeds them into a vector database, and enables conversational analysis of KPIs, performance trends, and competitor insights.\n---\n### **Problem**\nSales ops teams deal with scattered PDFs, Excel files, and decks. Answering even basic questions about growth or retention requires time-consuming manual work.\n### **Architecture Diagram (Sales RAG System)**\n```mermaid\nflowchart LR\nA[Drive Folder] --> B[n8n Ingestion Pipeline]\nB --> C[Embedding Pipeline]\nC --> D[Vector DB]\nD --> E[LLM Answer Engine]\nE --> F[Chat UI]\n```\n---\n### **Tech Stack**\n- Python\n- n8n automation\n- Pinecone\n- LangChain\n- GPT models\n- Streamlit UI\n---\n### **Key Challenges**\n- Normalizing unstructured sales files\n- Ensuring accurate KPI extraction\n- Updating embeddings as new files arrive\n- Avoiding hallucinations when data is missing\n---\n### **What I Learned**\n- How to operationalize data ingestion for business users\n- How RAG behaves with structured vs. unstructured data\n- How to design explainability into business AI tools\n- How to balance transparency with speed\n---",
@@ -119,27 +161,5 @@
       "BE — Civil Engineering | Anna University"
     ]
   },
-  "contact": {
-    "title": "Let's Connect",
-    "body": "I'm always excited to connect with people working on innovative products, AI applications, and big strategic challenges.\nI also enjoy supporting others on similar journeys. I regularly mentor students interested in engineering, product, AI, studying abroad, or navigating early-career decisions. I love helping early-stage startups brainstorm ideas, and I support mission-driven teams and NGOs whenever possible.\nIf you’d like to chat, explore mentorship, or simply brainstorm, I’d be happy to connect — I’m usually available on weekends.\nLooking forward to what's ahead — and grateful that our paths have crossed.",
-    "network": [
-      {
-        "label": "Book a meeting with me",
-        "url": "https://calendar.app.google/F2uy288Db6Jw7Mft8"
-      },
-      {
-        "label": "Email Me",
-        "url": "mailto:nv2357@stern.nyu.edu"
-      },
-      {
-        "label": "LinkedIn",
-        "url": "https://www.linkedin.com/in/nivedithaa"
-      },
-      {
-        "label": "GitHub",
-        "url": "https://github.com/nivevenkat24"
-      }
-    ]
-  },
-  "generatedAt": "2025-11-17T01:30:34.129Z"
+  "generatedAt": "seed"
 }

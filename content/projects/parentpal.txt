@@ -48,8 +48,34 @@ flowchart LR
 - How to build trust through transparency
 - How empathy shapes UX in family-oriented tools
 
----
-demo_gif: assets/images/projects/parentpal-gpt-demo.gif
+
+Future enhancements: integration with web connectors for dynamic article retrieval, and improved contextual recall for ongoing parent–child discussions.
+
+💡 Focus
+tags: gpt, parenting, healthcare, aap
+categories: AI / Machine Learning Projects, Product Management + UX
+Identified a need for trustworthy parenting chatbots that reduce anxiety and misinformation while providing quick, verified guidance.
+The MVP is structured around three pillars:
+Evidence-Based Guidance – Only cites AAP-verified medical sources.
+
+
+Empathy & Clarity – Friendly tone and simple explanations.
+
+
+Accessibility & Trust – Fast answers, reliable links, and bilingual support.
+
+
+User Personas:
+👩‍🍼 First-time parents seeking reassurance
+
+
+👨‍👩‍👧 Families looking for development-stage tips
+
+
+👩‍⚕️ Childcare workers or educators referencing AAP guidance
+
+
+Includes built-in trust markers (“Always check with your pediatrician”) and compliance filters to maintain medical reliability and ethical accuracy.
 
 links:
 - demo: 

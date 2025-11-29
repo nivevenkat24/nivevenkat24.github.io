@@ -1,0 +1,42 @@
+title: Tao Climate — Carbon Removal Pricing
+subtitle: Market Entry & Pricing Strategy
+date: Nov 2025
+tags: strategy, climate-tech, pricing, analytics
+categories: Strategy & Consulting Projects
+image: assets/images/project-placeholder.svg
+overview:
+Developed a pricing and market-entry strategy for hemp-based carbon credits offered by Tao Climate — a climate-tech startup in the XPRIZE Top 100 for carbon removal.
+
+problem:
+**The Problem**
+Airlines must decarbonize but face cost pressure and uncertainty around voluntary carbon markets (VCMs). Tao Climate needed to price hemp-based credits competitively while differentiating from DAC, enhanced weathering, BECCS, and biochar.
+
+architecture:
+flowchart LR
+    Market[Global Carbon Market Data] --> Compare[Competitor Benchmarking]
+    Airlines[Airline Sustainability Requirements] --> Compare
+
+    Compare --> Model[Pricing + ROI Model]
+    Model --> Scenarios[Low / Mid / High Price Scenarios]
+    Scenarios --> Recs[Final Pricing Strategy]
+
+    Supply[Hemp Cultivation + Production Costs] --> Model
+    Demand[Corporate & Airline Buyer's WTP] --> Model
+
+stack:
+- Excel & Python pricing model
+- Industry benchmarking (Climeworks, Charm, Puro.earth, Nori, Vesta)
+- Airline sustainability reports (SBTi, SAF disclosures)
+- Market sizing & segmentation frameworks
+
+challenges:
+- Highly inconsistent carbon credit quality & verification
+- VCM price volatility ($15 → $800 depending on methodology)
+- Mapping airline sustainability maturity models
+- Identifying WTP for nature-based vs engineered credits
+
+learned:
+- How to build a defensible pricing model for an emerging market
+- How buyers evaluate carbon credits (durability, MRV, co-benefits)
+- How to position a niche product in a highly skeptical market
+- How to design market segmentation for enterprise buyers

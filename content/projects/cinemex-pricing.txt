@@ -1,0 +1,43 @@
+title: Cinemex Demand & Pricing Strategy Analysis
+subtitle: Price elasticity & competitive response modeling (Economics)
+date: Dec 2025
+tags: microeconomics, pricing-strategy, demand-modeling, elasticity
+categories: Strategy & Consulting Projects
+image: assets/images/project-placeholder.svg
+overview:
+Analyzed how 2-for-1 pricing introduced by a competitor impacted Cinemex’s attendance in Mexico City. Built counterfactuals, time-series graphs, demand curve diagrams, and multiple regressions to quantify lost demand and evaluate Cinemex’s eventual pricing response.
+
+problem:
+**The Problem**
+Cinemex experienced sudden drops in attendance after competitors launched aggressive Wednesday 2-for-1 pricing. The challenge was to isolate the true causal impact of competitor pricing and evaluate whether Cinemex should match the promotion.
+
+architecture:
+flowchart LR
+    A[Attendance & Pricing Data 2000–2002] --> B[Time Series Analysis]
+    B --> C[Demand Curve Modeling]
+    C --> D[Counterfactual Construction]
+    D --> E[Multiple Regression Control Model]
+    E --> F[Elasticity Estimation]
+    F --> G[Pricing Recommendation]
+
+stack:
+- Excel (time-series, % change analysis, scenario modeling)
+- Economic modeling (demand curves, substitution effects)
+- Multiple regression (controls for seasonality & city-wide demand)
+- Counterfactual simulation
+- Price elasticity calculations
+- Competitive strategy analysis
+
+challenges:
+- Heavy seasonality in cinema attendance
+- Confounding factors (holidays, heat waves, new releases)
+- Limited 2.5 years of data available
+- High correlation between city-wide and Cinemex attendance
+- Lack of competitor pricing data beyond the 2-for-1 deal
+
+learned:
+- Competitor 2-for-1 pricing reduced Cinemex’s Wednesday attendance by ~22%
+- Cinemex’s own 2-for-1 introduction boosted winter attendance by ~27.5%
+- Cinemex demand on Wednesdays is highly elastic (ε ≈ 4–6)
+- Counterfactual modeling is crucial for isolating causal impact
+- Matching competitor pricing was strategically the right move

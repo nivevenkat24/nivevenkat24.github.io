@@ -1,11 +1,7 @@
 title: FEMA Companion
 subtitle: AI knowledge assistant for seismic design (RAG)
-tags:
-- rag
-- streamlit
-- engineering
-- openai
-- chromadb
+tags: rag, streamlit, engineering, openai, chromadb
+categories: AI / Machine Learning Projects
 image: assets/images/projects/fema-companion.jpg
 overview: 
 ### *Overview*

@@ -1,0 +1,36 @@
+title: Mobile App Rank Drivers
+subtitle: Demand Modeling & Price Elasticity (STATA)
+date: Dec 2025
+tags: analytics, stata, demand-modeling, econometrics
+categories: Data + Business Analytics / BI Systems
+image: assets/images/project-placeholder.svg
+overview:
+Built statistical models to identify key drivers of mobile app rank across Apple and Google stores. Used Negative Binomial Regression and log-log models to estimate how price, ratings, file size, screenshots, and monetization features impact app demand.
+
+problem:
+**The Problem**
+App developers struggle to understand which app attributes actually influence store ranking and downloads. With thousands of competing apps, identifying which levers move rank is critical for optimizing visibility and revenue.
+
+architecture:
+flowchart LR
+Raw App Data → Variable Engineering → STATA Regression Models 
+→ Elasticity Estimation → Insights for App Store Optimization (ASO)
+
+stack:
+- STATA (nbreg, log-log regression, device segmentation)
+- Excel (initial cleaning + summaries)
+- Elasticity modeling
+- Market segmentation (Apple vs Google, US vs China, Tablet vs Smartphone)
+- KPI modeling (rank, downloads, ratings)
+
+challenges:
+- Overdispersed count data requiring NBREG instead of Poisson
+- Significant cross-market elasticity differences (US vs China)
+- Interpreting log-log coefficients as elasticities
+- Complex interaction effects (device type × monetization model)
+
+learned:
+- How pricing affects Google users negatively but improves downloads for Apple users
+- How file size signals “quality” to Apple users, improving rank
+- How rating count is the strongest universal predictor of app success
+- How in-app purchases strongly improve rank on smartphones but not tablets

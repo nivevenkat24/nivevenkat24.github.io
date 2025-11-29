@@ -1,0 +1,43 @@
+title: Morningstar — Climate Index Construction
+subtitle: ESG & Regulatory Analysis
+date: Nov 2025
+tags: finance, esg, python, strategy, morningstar
+categories: Strategy & Consulting Projects
+image: assets/images/project-placeholder.svg
+overview:
+Led the Market & Regulatory Analysis for a climate-aligned European equity index. The project integrated Morningstar + Sustainalytics ESG datasets to create a forward-looking, regulatory-aligned index methodology.
+
+problem:
+**The Problem**
+Existing ESG indexes rely on backward-looking emissions and opaque scoring. Investors want transparent, forward-looking climate indexes, aligned to EU Taxonomy, SFDR, and TCFD standards.
+
+architecture:
+flowchart LR
+    Universe[Morningstar Global All-Cap Index] --> Filter1[Exclude Firms Failing Climate Criteria]
+    Filter1 --> Metrics[Forward-Looking Metrics: Aligned CapEx, Aligned Revenue, SBTi Target, TCFD Disclosure, Management Quality]
+
+    Metrics --> Score[Composite Climate Score]
+
+    Score --> Weight[Weighted Rebalancing Framework]
+    Weight --> Index[Morningstar Climate Transition Index]
+
+    Index --> QA[Backtesting • Diversification • Risk Checks]
+
+stack:
+- Morningstar Direct
+- Sustainalytics ESG data
+- Python for scoring & weighting
+- EU Taxonomy, SFDR, CSRD regulatory frameworks
+
+challenges:
+- Missing Scope 3 data
+- Inconsistent TCFD reporting
+- Designing methodology that is both investable & climate-aligned
+- Balancing large-cap dominance vs mid/small cap representation
+- Avoiding greenwashing
+
+learned:
+- How ESG index construction works behind the scenes
+- How climate regulations directly shape financial products
+- How to design transparent scoring methodologies
+- How forward-looking metrics outperform pure emissions data
