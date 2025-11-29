@@ -1,0 +1,70 @@
+---
+title: Digital Strategy — Trunk Tools
+subtitle: AI-native construction strategy
+date: Nov 2025
+tags:
+- strategy
+- aec
+- llm
+- product-management
+- ai
+categories: Product Management + UX, Strategy & Consulting Projects
+image: assets/images/project-placeholder.svg
+overview: 
+---
+
+### **Overview**
+Strategic analysis of Trunk Tools, an AI-native construction startup building vertical LLM models for field productivity. Evaluated market fit, competitive landscape, workflow integration, and produced a roadmap for product, GTM, and data moat expansion.
+
+---
+
+### **Problem**
+Construction is a $16.4T industry with chronic productivity issues, fragmented workflows, and labor shortages. Teams lose hours searching documentation, reviewing submittals, and coordinating schedules. Traditional construction software is not AI-native and fails to serve field workers effectively.
+
+---
+
+### **Architecture Diagram (AI Agent Stack)**
+```mermaid
+flowchart LR
+    Docs["RFIs, Specs, Drawings, Schedules"] --> ETL["Document Intelligence Pipeline"]
+    ETL --> VertLLM["Vertical LLM (Construction-trained)"]
+    VertLLM --> Agents["AI Agents: TrunkText / TrunkSubmittal / TrunkSchedule"]
+    Agents --> Mobile["Field Worker Mobile Interface"]
+    Agents --> PM["Project Manager Dashboard"]
+    Mobile --> Feedback["Jobsite Feedback Loop"]
+    PM --> Feedback
+    Feedback --> Retrain["Model Retraining + Continuous Learning"]
+```
+
+---
+
+### **Tech Stack**
+- Construction-specific LLMs  
+- Vision + document parsing (OCR, PDF parsers)  
+- Embeddings over drawings, RFIs, submittals  
+- ETL pipeline for schedules and documents  
+- Mobile-first UX  
+- Integrations: Procore, Autodesk, Bluebeam
+
+---
+
+### **Key Challenges**
+- Understanding workflow reality of jobsite teams  
+- Mapping each AI agent to measurable ROI metrics  
+- Evaluating PMF in a highly fragmented industry  
+- Benchmarking Trunk against Procore, Autodesk, OpenSpace  
+- Identifying markets for expansion (Canada, UK, Australia)
+
+---
+
+### **What I Learned**
+- How vertical LLMs outperform general-purpose LLMs in industry use cases  
+- How to build a product and market segmentation strategy  
+- How AI can replace documentation work, not workers  
+- How to think like a PM building for safety-critical environments  
+- How to structure a GTM plan for an enterprise AI startup
+
+---
+
+links:
+- demo: https://your-trunk-tools-project.com

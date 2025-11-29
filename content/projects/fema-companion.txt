@@ -1,28 +1,29 @@
+---
 title: FEMA Companion
 subtitle: AI knowledge assistant for seismic design (RAG)
+date: Dec 2025
 tags:
 - rag
 - streamlit
 - engineering
 - openai
 - chromadb
+categories: AI / Machine Learning Projects
 image: assets/images/projects/fema-companion.jpg
 overview: 
-### *Overview*
+---
 
-A Retrieval-Augmented Generation (RAG) tool that makes 
-**FEMA P-750** and **NIST GCR 2016** seismic design guidelines fully searchable. The system enables engineers to ask natural-language questions and receive precise, citation-backed answers.
+### **Overview**
+Retrieval-Augmented Generation tool that makes **FEMA P-750** and **NIST GCR 2016** seismic design guidelines fully searchable. Engineers can ask natural-language questions and receive precise, citation-backed answers.
 
 ---
 
 ### **Problem**
+Seismic codes are dense, technical, and difficult to navigate. Engineers spend time manually searching hundreds of pages and often miss important clauses. There was no fast, authoritative, clause-level lookup grounded directly in source documents.
 
-Seismic codes are dense, technical, and difficult to navigate. 
-Engineers spend significant time manually searching hundreds of pages, often missing important clauses. No existing solution provides fast, authoritative, clause-level lookup grounded directly in source documents.
 ---
 
 ### **Architecture Diagram (High-Level RAG Pipeline)**
-
 ```mermaid
 flowchart LR
     A[User] --> B[Query Handler]
@@ -32,9 +33,10 @@ flowchart LR
     E --> F[LLM Reasoning]
     F --> G["Final Answer<br>+ Citations"]
 ```
----
-### **Tech Stack**
 
+---
+
+### **Tech Stack**
 - LangChain  
 - ChromaDB  
 - OpenAI embeddings  
@@ -53,10 +55,10 @@ flowchart LR
 ---
 
 ### **What I Learned**
-- How to build a complete RAG system end-to-end  
+- How to build a complete RAG system end to end  
 - How retrieval quality affects answer accuracy and trustworthiness  
 - How to design usable AI tools for domain experts  
-- How to enforce accuracy and grounding in engineering workflows  
+- How to enforce accuracy and grounding in engineering workflows
 
 ---
 demo_gif: assets/images/projects/fema-companion.gif

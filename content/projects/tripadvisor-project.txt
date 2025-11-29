@@ -1,0 +1,55 @@
+---
+title: TripAdvisor Reviews Analysis
+subtitle: ML sentiment and strategy
+date: Nov 2025
+tags:
+- python
+- nlp
+- ml
+- analytics
+categories: AI / Machine Learning Projects, Data + Business Analytics / BI Systems
+image: assets/images/project-placeholder.svg
+overview: 
+---
+
+### **Overview**
+Analyzed TripAdvisor reviews to identify patterns in sentiment, ratings, review length, and traveler type. Developed recommendations for improving engagement and platform design.
+
+---
+
+### **Problem**
+TripAdvisor receives millions of reviews, but inconsistent sentiment and long-tail content make it hard for users to find helpful insights. The company needs ML-backed insights to improve UX and product decisions.
+
+---
+
+### **Architecture Diagram (NLP Pipeline)**
+```mermaid
+flowchart LR
+    Raw[TripAdvisor Dataset] --> Clean[Data Cleaning: stopwords, duplicates]
+    Clean --> NLP[Sentiment Analysis + Keyword Extraction]
+    NLP --> Clusters[Clustering: review themes]
+    Clean --> Model[Rating Prediction Model]
+    Model --> Insights[Business Insights + UX Recs]
+```
+
+---
+
+### **Tech Stack**
+- Python (Pandas, NLTK, scikit-learn)  
+- Sentiment analysis  
+- Regression for rating prediction  
+- Visualization in Matplotlib / Power BI
+
+---
+
+### **Key Challenges**
+- Noisy text and mixed sentiment (including sarcasm)  
+- Identifying segments (families vs couples vs solo travelers)  
+- Handling long-tail review content
+
+---
+
+### **What I Learned**
+- How to extract business insights from unstructured text  
+- How ML models behave with subjective sentiment data  
+- How to translate data findings into product recommendations

@@ -1,0 +1,63 @@
+---
+title: HR Analytics Dashboard
+subtitle: Workforce insights (Tableau + HR metrics)
+date: Dec 2025
+tags:
+- tableau
+- hr-analytics
+- data-visualization
+categories: Data + Business Analytics / BI Systems
+image: assets/images/project-placeholder.svg
+overview: 
+---
+
+### **Overview**
+Interactive Tableau HR Insights Dashboard covering employee performance, salary distribution, engagement levels, and attrition patterns. Leaders can explore workforce trends and uncover actionable insights for retention and performance management.
+
+---
+
+### **Problem**
+HR teams and senior leadership often lack a unified view of workforce data. Disconnected systems make it difficult to understand turnover, performance gaps, and compensation fairness. This dashboard consolidates critical HR metrics into a single, intuitive interface.
+
+---
+
+### **Architecture Diagram (Dashboard Flow)**
+```mermaid
+flowchart LR
+    A[Employee Dataset] --> B[Data Cleaning in Tableau Prep]
+    B --> C[Tableau Dashboard Build]
+    C --> D[Salary Visualization]
+    C --> E[Performance Scoring]
+    C --> F[Engagement & Satisfaction Metrics]
+    F --> G[Insights for HR Strategy]
+```
+
+---
+
+### **Tech Stack**
+- Tableau Desktop (interactive charts and filters)  
+- Employee segmentation (department, gender, performance)  
+- KPI visualizations (attrition, satisfaction, salary ranges)  
+- Calculated fields for performance/engagement scores  
+- Dashboard actions and filters for cross-interaction
+
+---
+
+### **Key Challenges**
+- Balancing simplicity with detail across multiple HR metrics  
+- Designing comparisons across departments with uneven sample sizes  
+- Showing engagement and satisfaction ratings clearly across ranges  
+- Enabling HR leaders to quickly drill into specific segments
+
+---
+
+### **What I Learned**
+- How to design HR dashboards for executives  
+- How to blend performance, salary, and engagement metrics  
+- How visual comparisons uncover patterns tied to attrition  
+- How to create an end-to-end Tableau workflow from raw data to story
+
+---
+
+links:
+- demo: https://public.tableau.com/app/profile/nivedithaa.venkatanarayanasami/viz/Assignment1_NiveVenkat/Nive_Venkat?publish=yes

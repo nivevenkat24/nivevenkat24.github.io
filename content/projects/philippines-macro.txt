@@ -1,0 +1,61 @@
+---
+title: Philippines Macroeconomic Analysis
+subtitle: Growth drivers and economic resilience (FRED + World Bank)
+date: Dec 2025
+tags:
+- economics
+- macro-analysis
+- international-business
+- growth-strategy
+categories: Strategy & Consulting Projects
+image: assets/images/project-placeholder.svg
+overview: 
+---
+
+### **Overview**
+Performed a comprehensive macroeconomic analysis of the Philippines using 30 years of data from FRED, World Bank, ADB, and trade datasets. Evaluated GDP growth, inflation, exports, productivity, sector composition, labor dynamics, and long-run economic prospects.
+
+---
+
+### **Problem**
+Emerging markets like the Philippines show rapid yet volatile growth. Investors, governments, and retirement funds need structured, data-driven insights to assess stability, long-term prospects, and key macro risks.
+
+---
+
+### **Architecture Diagram (Analysis Flow)**
+```mermaid
+flowchart LR
+    A[FRED + World Bank Data] --> B[GDP & Inflation Trends]
+    A --> C[Trade & Sector Analysis]
+    A --> D[Labor & Population Metrics]
+    D --> E[Growth Accounting]
+    E --> F[Risk Assessment & Investment Outlook]
+```
+
+---
+
+### **Tech Stack**
+- FRED datasets (GDP, CPI, unemployment, PPP)  
+- Trade and industry data (Atlas of Economic Complexity)  
+- Excel (trend charts, time-series analysis)  
+- Growth accounting framework  
+- Comparative analysis vs peer economies  
+- Macro risk assessment (inflation, demographics, debt)
+
+---
+
+### **Key Challenges**
+- Large multi-source datasets with differing time ranges  
+- Distinguishing structural vs cyclical growth drivers  
+- Interpreting conflicting signals (falling fertility vs rising GDP)  
+- Connecting population trends to productivity forecasts  
+- Assessing geopolitical exposure (U.S.–China dynamics)
+
+---
+
+### **What I Learned**
+- The strongest growth driver is TFP plus labor force expansion  
+- Remittances (8% of GDP) stabilize the economy during downturns  
+- A booming BPO sector makes the country a “tiger economy”  
+- Aging population and low capital investment pose long-term risks  
+- The 20-year growth outlook is strong with high investor potential

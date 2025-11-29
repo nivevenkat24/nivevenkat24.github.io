@@ -1,0 +1,62 @@
+---
+title: Life Expectancy Regression Analysis
+subtitle: Statistical modeling of health outcomes (Minitab)
+date: Dec 2025
+tags:
+- statistics
+- regression
+- data-analysis
+- health-economics
+categories: Data + Business Analytics / BI Systems
+image: assets/images/project-placeholder.svg
+overview: 
+---
+
+### **Overview**
+Conducted a statistical analysis to understand how BMI and years of schooling influence global life expectancy using WHO and Kaggle data. Applied scatterplots, descriptive statistics, normality tests, simple regression, multiple regression, and model selection criteria (AICC and Adjusted R²).
+
+---
+
+### **Problem**
+Countries struggle to identify which socio-economic factors most strongly impact population health. Life expectancy varies widely, and policymakers need quantitative guidance on which levers—education, lifestyle, or healthcare—drive outcomes.
+
+---
+
+### **Architecture Diagram (Analysis Flow)**
+```mermaid
+flowchart LR
+    A[WHO Life Expectancy Dataset] --> B[Scatterplots & Outlier Detection]
+    B --> C[Normality Tests & Transformations]
+    C --> D[Simple Regression Models]
+    C --> E[Multiple Regression Model]
+    E --> F[Model Comparison (AICC, Adj R²)]
+    F --> G[Insights for Policy & Intervention]
+```
+
+---
+
+### **Tech Stack**
+- Minitab (regression, normality testing, visual diagnostics)  
+- Excel (initial cleaning and scatterplots)  
+- Simple and multiple linear regression  
+- AICC model selection  
+- Residual and leverage diagnostics  
+- Statistical inference (p-values, confidence intervals)
+
+---
+
+### **Key Challenges**
+- Response variable (life expectancy) not normally distributed  
+- Non-constant variance in residual plots  
+- BMI had weak explanatory power compared to schooling  
+- Outliers (e.g., Sierra Leone) skewed model behavior  
+- Choosing the best model when predictors were correlated
+
+---
+
+### **What I Learned**
+- Schooling is a far stronger predictor of life expectancy than BMI  
+- Multiple regression improves explanatory power significantly  
+- Outlier and normality checks are critical for reliable inference  
+- Model selection requires balancing statistics with theory  
+- Socio-economic enablers (education, health spending) matter more than BMI alone

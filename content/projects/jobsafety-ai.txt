@@ -1,0 +1,45 @@
+---
+title: JobSafetyAI
+subtitle: Construction safety AI in under 1 hour
+date: Nov 2025
+tags:
+- antigravity
+- yolov8
+- streamlit
+- safety
+- ai
+categories: AI / Machine Learning Projects
+image: assets/images/project-placeholder.svg
+overview: 
+---
+
+### **Overview**
+Built a construction safety AI in under one hour using Antigravity. Upload a construction site photo and instantly see: 🟢 Hardhat / 🔴 No Hardhat, 🟢 Safety Vest / 🔴 No Safety Vest, 😷 Masks, 🚧 Machinery, 🔶 Cones, and more—each with bounding boxes, confidence scores, and compliance summaries.
+
+---
+
+### **Problem**
+Needed an end-to-end construction safety monitoring system that could:  
+📂 Use a Kaggle dataset of construction site images  
+🧠 Train a custom YOLOv8 object detection model  
+🦺 Detect PPE compliance (hardhats, vests, masks, etc.)  
+🌐 Run in a real-time Streamlit web app
+
+---
+
+### **Tech Stack**
+- Antigravity (Google DeepMind)  
+- Kaggle dataset  
+- YOLOv8 (object detection)  
+- Streamlit (web app)  
+- Python
+
+---
+
+### **What I Learned**
+If you have ideas but feel limited by your coding skills, Antigravity removes that barrier. It feels like having a world-class developer guiding you end to end—and it’s currently free and incredibly powerful.
+
+---
+
+links:
+- demo: https://lnkd.in/ezikhTjN

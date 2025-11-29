@@ -1,5 +1,7 @@
+---
 title: Email Summarizer using n8n
 subtitle: Automated weekly digest of top emails with AI
+date: Dec 2025
 tags:
 - n8n
 - openai
@@ -7,19 +9,19 @@ tags:
 - ollama
 image: assets/images/projects/email-summarizer.png
 overview: 
+---
 
 ### **Overview**
-
-A fully automated email intelligence agent that reads the top 50 emails each week, extracts themes, action items, and reminders, and sends a structured summary to the user.
+Fully automated email intelligence agent that reads the top 50 emails each week, extracts themes, action items, and reminders, and sends a structured summary to the user.
 
 ---
 
 ### **Problem**
+Professionals spend hours triaging inboxes, often missing critical to-dos hidden inside long threads. A lightweight, automated summarizer reduces cognitive load and improves task prioritization.
 
-Professionals spend hours triaging inboxes, often missing critical to-dos hidden inside long threads. A lightweight, automated summarizer can dramatically reduce cognitive load and improve task prioritization.---
+---
 
-### **Architecture Diagram (High-Level RAG Pipeline)**
-
+### **Architecture Diagram (Email Digest Workflow)**
 ```mermaid
 flowchart LR
   Cron[Weekly Cron Trigger] --> Gmail["Fetch 50 Emails"]
@@ -28,28 +30,30 @@ flowchart LR
   Organizer --> EmailNode[Email Sender]
   EmailNode --> User
 ```
+
 ---
+
 ### **Tech Stack**
-- n8n
-- Gmail API
-- GPT models
-- Cron schedules
+- n8n  
+- Gmail API  
+- GPT models  
+- Cron schedules  
 - Email node (SMTP)
 
 ---
 
 ### **Key Challenges**
-- Avoiding invented tasks ("hallucinated action items")
-- Handling duplicate content in long threads
-- Designing summaries that work on mobile
+- Avoiding invented tasks ("hallucinated action items")  
+- Handling duplicate content in long threads  
+- Designing summaries that render cleanly on mobile  
 - Ensuring reliable weekly execution
 
 ---
 
 ### **What I Learned**
-- How to design multi-step agentic workflows
-- How prompt engineering affects action-item extraction
-- How to balance completeness and brevity
+- How to design multi-step agentic workflows  
+- How prompt engineering affects action-item extraction  
+- How to balance completeness and brevity  
 - How to deliver recurring automation with reliability
 
 ---
