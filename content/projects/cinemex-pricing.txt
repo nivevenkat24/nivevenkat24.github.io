@@ -1,0 +1,62 @@
+---
+title: Cinemex Demand & Pricing Strategy Analysis
+subtitle: Price elasticity and competitive response modeling
+date: Dec 2025
+tags:
+- microeconomics
+- pricing-strategy
+- demand-modeling
+- elasticity
+categories: Strategy & Consulting Projects
+image: assets/images/project-placeholder.svg
+overview: 
+---
+
+### **Overview**
+Analyzed how competitor 2-for-1 pricing impacted Cinemex attendance in Mexico City. Built counterfactuals, time-series graphs, demand curve diagrams, and regressions to quantify lost demand and evaluate Cinemex’s pricing response.
+
+---
+
+### **Problem**
+Attendance dropped after competitors launched aggressive Wednesday 2-for-1 pricing. Needed to isolate the causal impact of competitor pricing and decide whether Cinemex should match the promotion.
+
+---
+
+### **Architecture Diagram (Analysis Flow)**
+```mermaid
+flowchart LR
+    A[Attendance & Pricing Data 2000–2002] --> B[Time Series Analysis]
+    B --> C[Demand Curve Modeling]
+    C --> D[Counterfactual Construction]
+    D --> E[Multiple Regression Control Model]
+    E --> F[Elasticity Estimation]
+    F --> G[Pricing Recommendation]
+```
+
+---
+
+### **Tech Stack**
+- Excel (time-series, percent-change analysis, scenario modeling)  
+- Economic modeling (demand curves, substitution effects)  
+- Multiple regression (controls for seasonality and city-wide demand)  
+- Counterfactual simulation  
+- Price elasticity calculations  
+- Competitive strategy analysis
+
+---
+
+### **Key Challenges**
+- Heavy seasonality in cinema attendance  
+- Confounding factors (holidays, heat waves, new releases)  
+- Limited 2.5 years of data available  
+- High correlation between city-wide and Cinemex attendance  
+- Sparse competitor pricing data beyond the 2-for-1 deal
+
+---
+
+### **What I Learned**
+- Competitor 2-for-1 pricing reduced Cinemex’s Wednesday attendance by ~22%  
+- Cinemex’s own 2-for-1 introduction boosted winter attendance by ~27.5%  
+- Cinemex Wednesday demand is highly elastic (ε ≈ 4–6)  
+- Counterfactual modeling is crucial for isolating causal impact  
+- Matching competitor pricing was strategically the right move

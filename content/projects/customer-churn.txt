@@ -1,0 +1,72 @@
+---
+title: Telco Customer Churn Prediction
+subtitle: ML and deep learning pipeline
+date: Nov 2025
+tags:
+- python
+- tensorflow
+- scikit-learn
+- power-bi
+- ml
+categories: AI / Machine Learning Projects, Data + Business Analytics / BI Systems
+image: assets/images/project-placeholder.svg
+overview: 
+---
+
+### **Overview**
+Built an end-to-end pipeline on the Telco Customer Churn dataset. Compared logistic regression, random forest, and neural networks to predict churn and explain the drivers.
+
+---
+
+### **Problem**
+Subscription businesses need to spot at-risk customers early, but most rely on manual analysis or non-predictive dashboards. Telecom companies lose millions annually from preventable churn.
+
+---
+
+### **Architecture Diagram (Modeling Flow)**
+```mermaid
+flowchart LR
+  Raw[Raw CSV] --> ETL[Python ETL: Cleaning + Encoding + Scaling]
+  ETL --> Features[Feature Engineering]
+  Features --> LogReg[Logistic Regression]
+  Features --> RF[Random Forest]
+  Features --> ANN[Neural Network]
+
+  LogReg --> Eval[Evaluation]
+  RF --> Eval
+  ANN --> Eval
+
+  Eval --> Insights[Business Recommendations]
+```
+
+---
+
+### **Tech Stack**
+- Python (Pandas, NumPy, Matplotlib)  
+- scikit-learn  
+- TensorFlow / Keras (ANN model)  
+- Power BI (visualization)  
+- AI Studio for experimentation
+
+---
+
+### **Key Challenges**
+- Handling categorical variables via one-hot encoding  
+- Preventing data leakage during scaling  
+- Balancing interpretability (logistic regression) vs performance (RF/ANN)  
+- Visualizing churn drivers clearly for stakeholders  
+- Class imbalance and ANN overfitting risk
+
+---
+
+### **What I Learned**
+- How to build ML pipelines end to end  
+- How to compare classic ML vs neural networks  
+- How feature engineering impacts model outcomes  
+- How to turn model results into business insights  
+- ML vs DL tradeoffs
+
+---
+
+links:
+- repo: https://github.com/nivevenkat/churn

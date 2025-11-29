@@ -1,0 +1,50 @@
+---
+title: Submittal AI
+subtitle: AI-powered submittal reviewer (Gemini Pro 3)
+date: Nov 2025
+tags:
+- gemini
+- aec
+- construction-tech
+- react
+- ai-agent
+categories: AI / Machine Learning Projects, Product Management + UX
+image: assets/images/project-placeholder.svg
+overview: 
+---
+
+### **Overview**
+Built SubmittalCheck AI—an AI-powered submittal reviewer that reads PDFs, checks completeness, flags spec deviations, and drafts engineer-ready comments using Google AI Studio and Gemini Pro 3.
+
+---
+
+### **Problem**
+Submittal reviews are slow, manual, and error-prone. Engineers spend hours scanning specs, drawings, cut sheets, and certifications, and often miss attachments or conflicting details. Most AEC teams lack a lightweight tool that automates extraction, completeness checks, compliance review, and draft comments.
+
+---
+
+### **Solution**
+AI reviewer that handles the tedious parts in seconds:  
+- Upload PDF: Reads text, tables, scanned pages, cut sheets  
+- Analyze: Extracts submittal number, spec section, product, model; checks for missing certificates/calcs; performs spec compliance and deviation checks  
+- Draft Response: Generates engineer-ready comments and recommended status (Approved / Approved as Noted / Revise & Resubmit / Rejected)  
+- Auto-logs everything into Google Docs and Sheets
+
+---
+
+### **Tech Stack**
+- Gemini Pro 3.0  
+- Google AI Studio  
+- Google Extensions (Docs + Sheets)  
+- Google PDF/Document Processing  
+- React + Tailwind (UI)
+
+---
+
+### **What I Learned**
+The breakthrough wasn’t PDF parsing—it was giving the AI agentic capabilities. With Google Search Grounding and external tool calls, the AI can verify details like a junior engineer: “Is this model discontinued?” “What’s the latest ASTM standard?” “Does this product match the spec?” We’re moving from “AI as a wrapper” to “AI as an agent.”
+
+---
+
+links:
+- demo: https://lnkd.in/eGjKGM2i

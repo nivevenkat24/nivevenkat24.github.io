@@ -1,0 +1,58 @@
+---
+title: Search Engine Ad Ranking Model
+subtitle: Paid search analytics with STATA
+date: Dec 2025
+tags:
+- analytics
+- machine-learning
+- stata
+- predictive-modeling
+categories: Data + Business Analytics / BI Systems
+image: assets/images/project-placeholder.svg
+overview: 
+---
+
+### **Overview**
+Built regression models to predict ad rank using auction variables including CTR, bid price, ad quality, landing page quality, retailer/brand presence, and daily effects. Achieved high explanatory power for CTR (Adj. R² = 0.91) and strong Ad Rank improvements when incorporating date effects.
+
+---
+
+### **Problem**
+Brands waste ad spend because they don’t know which factors actually improve their paid search ranking. They need evidence on what drives Google Ad Rank to optimize bidding, creative, and landing page strategy.
+
+---
+
+### **Architecture Diagram (Modeling Flow)**
+```mermaid
+flowchart LR
+    A[Ad Performance Data] --> B[Log Transformations]
+    B --> C[OLS Model (CTR Drivers)]
+    C --> D[OLS Model (Ad Rank)]
+    D --> E[Date Fixed Effects Model]
+    E --> F[Optimization Strategy]
+```
+
+---
+
+### **Tech Stack**
+- STATA (OLS regressions, fixed effects modeling)  
+- Excel (data prep & summaries)  
+- CTR & Ad Rank predictive modeling  
+- Log transformations for elasticity  
+- Model comparison (baseline vs date-adjusted)
+
+---
+
+### **Key Challenges**
+- Very strong autocorrelation (lagged CTR dominates predictions)  
+- Low R² for initial Ad Rank model without time-based factors  
+- Non-significant variables (ad quality, landing quality) despite importance  
+- Identifying daily search competition effects using fixed effects
+
+---
+
+### **What I Learned**
+- CTR is primarily driven by past CTR (reinforcement effect)  
+- Bid price, CTR, brand presence, and retailer names are strong Ad Rank drivers  
+- Daily variations significantly change Ad Rank, improving accuracy by +7.5%  
+- How to translate statistical modeling into actionable paid search recommendations

@@ -1,6 +1,7 @@
 ---
 title: Understand AI
 subtitle: Meeting memory assistant (RAG + reasoning AI)
+date: Dec 2025
 tags:
 - ai
 - rag
@@ -12,8 +13,12 @@ overview:
 ### **Overview**
 Understand.AI is an AI-powered meeting memory system built for software engineering teams. It provides fast recall of decisions, rationale, action items, and historical context by unifying transcripts, Slack threads, and notes into a single searchable intelligence layer. The system is designed to help engineers spend less time digging through fragmented documentation and more time building.
 
+---
+
 ### **Problem**
 Engineering teams lose hours each week trying to remember what was decided and where context lives. Information is scattered across Confluence, Jira, Slack, raw recordings, and personal notes—causing rework, misalignment, and slowed execution. Teams need a trusted, centralized memory with timestamps, decision history, and explanation paths so they can retrieve context instantly.
+
+---
 
 ### **Tech Stack**
 - Claude AI (reasoning & summarization)  
@@ -24,12 +29,16 @@ Engineering teams lose hours each week trying to remember what was decided and w
 - Figma prototypes (UX flows, interaction design)  
 - Knowledge Graph (entity + decision linking, conceptual)
 
+---
+
 ### **Key Challenges**
 - Building trust through timestamps, source snippets, and uncertainty indicators  
 - Designing an intuitive search experience that returns context quickly without overwhelming the user  
 - Handling long transcripts while surfacing only the decisions, rationales, blockers, and action items  
 - Balancing summary clarity vs. completeness for engineering audiences  
 - Creating product-led growth loops for cross-team adoption in large orgs (e.g., shareable AI summaries)
+
+---
 
 ### **What I Learned**
 - How to design AI products specifically for developer workflows and cognitive patterns  

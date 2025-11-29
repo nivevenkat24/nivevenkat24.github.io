@@ -1,5 +1,7 @@
+---
 title: SalesSense AI
 subtitle: Real-time sales intelligence agent (RAG + automation)
+date: Dec 2025
 tags:
 - n8n
 - openai
@@ -7,18 +9,19 @@ tags:
 - ollama
 image: assets/images/projects/sales-sense-ai.png
 overview: 
+---
 
 ### **Overview**
+AI agent that ingests sales files from shared drives, embeds them into a vector database, and enables conversational analysis of KPIs, performance trends, and competitor insights.
 
-A RAG-powered AI agent that analyzes sales files, embeds them into a vector database, and enables conversational analysis of KPIs, performance trends, and competitor insights.
 ---
 
 ### **Problem**
+Sales ops teams juggle scattered PDFs, Excel files, and decks. Answering even basic questions about growth or retention requires time-consuming manual work and often yields incomplete insights.
 
-Sales ops teams deal with scattered PDFs, Excel files, and decks. Answering even basic questions about growth or retention requires time-consuming manual work.
+---
 
 ### **Architecture Diagram (Sales RAG System)**
-
 ```mermaid
 flowchart LR
     A[Drive Folder] --> B[n8n Ingestion Pipeline]
@@ -27,29 +30,31 @@ flowchart LR
     D --> E[LLM Answer Engine]
     E --> F[Chat UI]
 ```
+
 ---
+
 ### **Tech Stack**
-- Python
-- n8n automation
-- Pinecone
-- LangChain
-- GPT models
+- Python  
+- n8n automation  
+- Pinecone  
+- LangChain  
+- GPT models  
 - Streamlit UI
 
 ---
 
 ### **Key Challenges**
-- Normalizing unstructured sales files
-- Ensuring accurate KPI extraction
-- Updating embeddings as new files arrive
-- Avoiding hallucinations when data is missing
+- Normalizing messy sales files before embedding  
+- Ensuring accurate KPI extraction across inconsistent schemas  
+- Updating embeddings as new files arrive without downtime  
+- Avoiding hallucinations when data is incomplete or missing
 
 ---
 
 ### **What I Learned**
-- How to operationalize data ingestion for business users
-- How RAG behaves with structured vs. unstructured data
-- How to design explainability into business AI tools
+- How to operationalize data ingestion for business users  
+- How RAG behaves with structured vs. unstructured data  
+- How to design explainability into business AI tools  
 - How to balance transparency with speed
 
 ---

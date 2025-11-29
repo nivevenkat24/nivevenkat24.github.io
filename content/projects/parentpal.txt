@@ -1,21 +1,26 @@
+---
 title: ParentPal – Custom GPT
-subtitle: AI knowledge assistant for seismic design (RAG)
+subtitle: Safety-aligned parenting companion (AAP-grounded)
+date: Dec 2025
 tags:
 - openai
 - customGPT
+- safety
 image: assets/images/projects/parentpal-gpt.png
 overview: 
-### *Overview*
+---
 
+### **Overview**
 ParentPal is an empathetic, safety-aligned AI parenting assistant grounded entirely in HealthyChildren.org (American Academy of Pediatrics). It delivers reliable, age-appropriate guidance for new parents.
+
 ---
 
 ### **Problem**
+Parents are overwhelmed by contradictory online information. They need trusted, source-based advice—and AI models require strict guardrails to avoid unsafe recommendations.
 
-Parents are overwhelmed by contradictory online information. They need trusted, source-based advice—and AI models require strict guardrails to avoid unsafe recommendations.---
+---
 
-Architecture Diagram (Custom GPT with Safety Layer)
-
+### **Architecture Diagram (Custom GPT with Safety Layer)**
 ```mermaid
 flowchart LR
   User --> GPT[Custom GPT]
@@ -24,28 +29,29 @@ flowchart LR
   Healthy --> GPT
   GPT --> User
 ```
----
-### **Tech Stack**
 
-- OpenAI Custom GPT builder
-- Safety guardrails + structured prompts
-- HealthyChildren.org
+---
+
+### **Tech Stack**
+- OpenAI Custom GPT builder  
+- Safety guardrails + structured prompts  
+- HealthyChildren.org corpus  
 - Retrieval constraints
 
 ---
 
 ### **Key Challenges**
-- Enforcing strict guardrails for medical-adjacent topics
-- Designing empathetic yet factual responses
-- Ensuring citations map to approved AAP content
+- Enforcing strict guardrails for medical-adjacent topics  
+- Designing empathetic yet factual responses  
+- Ensuring citations map to approved AAP content  
 - Maintaining consistency across age groups
 
 ---
 
 ### **What I Learned**
-- How to design AI for safety-critical domains
-- How to structure system prompts with constraints
-- How to build trust through transparency
+- How to design AI for safety-critical domains  
+- How to structure system prompts with constraints  
+- How to build trust through transparency  
 - How empathy shapes UX in family-oriented tools
 
 ---
