@@ -8,7 +8,7 @@ tags:
 - international-business
 - growth-strategy
 categories: Strategy & Consulting Projects
-image: assets/images/project-placeholder.svg
+image: assets/images/projects/philippines-macro-thumbnail.jpg
 overview: 
 ---
 

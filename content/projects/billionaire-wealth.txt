@@ -8,7 +8,7 @@ tags:
 - economics
 - storytelling
 categories: Data + Business Analytics / BI Systems
-image: assets/images/project-placeholder.svg
+image: assets/images/projects/billionaire-wealth-thumbnail.jpg
 overview: 
 ---
 

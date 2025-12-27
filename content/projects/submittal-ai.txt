@@ -9,7 +9,7 @@ tags:
 - react
 - ai-agent
 categories: AI / Machine Learning Projects, Product Management + UX
-image: assets/images/project-placeholder.svg
+image: assets/images/projects/submittal-ai-1.jpeg
 overview: 
 ---
 

@@ -9,7 +9,7 @@ tags:
 - power-bi
 - ml
 categories: AI / Machine Learning Projects, Data + Business Analytics / BI Systems
-image: assets/images/project-placeholder.svg
+image: assets/images/projects/customer-churn-thumbnail.jpg
 overview: 
 ---
 

@@ -8,7 +8,7 @@ tags:
 - pricing
 - analytics
 categories: Strategy & Consulting Projects
-image: assets/images/project-placeholder.svg
+image: assets/images/projects/taoclimate-thumbnail.jpg
 overview: 
 ---
 

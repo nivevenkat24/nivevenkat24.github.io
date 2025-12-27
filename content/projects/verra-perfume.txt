@@ -8,7 +8,7 @@ tags:
 - ai-generated
 - business-plan
 categories: Product Management + UX, Strategy & Consulting Projects
-image: assets/images/project-placeholder.svg
+image: public/assets/images/projects/verra-perfume/verra_rooted_bottle_final_1764297357182.png
 overview: 
 ---
 

@@ -9,7 +9,7 @@ tags:
 - safety
 - ai
 categories: AI / Machine Learning Projects
-image: assets/images/project-placeholder.svg
+image: assets/images/projects/job-safety-ai-1.jpg
 overview: 
 ---
 

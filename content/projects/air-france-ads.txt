@@ -9,7 +9,7 @@ tags:
 - stata
 - roi
 categories: Data + Business Analytics / BI Systems
-image: assets/images/project-placeholder.svg
+image: assets/images/projects/air-france-ads-thumbnail.jpg
 overview: 
 ---
 

@@ -53,10 +53,12 @@ flowchart LR
 - How to structure system prompts with constraints  
 - How to build trust through transparency  
 - How empathy shapes UX in family-oriented tools
-
+- Future enhancements
+  - integration with web connectors for dynamic article retrieval, and improved contextual recall for ongoing parent–child discussions.
+  
 ---
 demo_gif: assets/images/projects/parentpal-gpt-demo.gif
 
 links:
-- demo: 
+- demo: https://chatgpt.com/g/g-690a6ecab4bc8191b85495143ac13d78-parentpal
 - repo: 
