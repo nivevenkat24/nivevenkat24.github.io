@@ -1,9 +1,9 @@
 title: Billionaire Wealth & Economic Trends Dashboard
 subtitle: Global wealth analytics (Tableau + economic indicators)
-date: Dec 2025
+date: Jan 2025
 tags: data-visualization, tableau, economics, storytelling
 categories: Data + Business Analytics / BI Systems
-image: assets/images/project-placeholder.svg
+image: assets/projects/billionaire-wealth/thumbnail.jpg
 overview:
 Built an interactive Tableau dashboard analyzing billionaire demographics, wealth distribution, and economic indicators using a global dataset. The visual story highlights industry dominance, age and gender patterns, and economic relationships across GDP, CPI, tax rates, and billionaire concentration.
 

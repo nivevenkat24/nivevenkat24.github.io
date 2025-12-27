@@ -1,9 +1,9 @@
 title: HR Analytics Dashboard
 subtitle: Workforce insights (Tableau + HR metrics)
-date: Dec 2025
+date: Jan 2025
 tags: tableau, hr-analytics, data-visualization
 categories: Data + Business Analytics / BI Systems
-image: assets/images/project-placeholder.svg
+image: assets/projects/hr-analytics/thumbnail.jpg
 overview:
 Designed an interactive Tableau HR Insights Dashboard showcasing employee performance, salary distribution, engagement levels, and attrition patterns. The dashboard enables leaders to explore workforce trends and uncover actionable insights for retention and performance management.
 

@@ -1,6 +1,6 @@
 title: Digital Strategy — Trunk Tools
 subtitle: AI-native Construction Strategy
-date: Nov 2025
+date: Aug 2025
 tags: strategy, aec, llm, product-management, ai
 categories: Product Management + UX, Strategy & Consulting Projects
 image: assets/images/project-placeholder.svg

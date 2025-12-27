@@ -1,9 +1,9 @@
 title: Mobile App Rank Drivers
 subtitle: Demand Modeling & Price Elasticity (STATA)
-date: Dec 2025
+date: Jan 2025
 tags: analytics, stata, demand-modeling, econometrics
 categories: Data + Business Analytics / BI Systems
-image: assets/images/project-placeholder.svg
+image: assets/projects/mobile-app-rank/thumbnail.jpg
 overview:
 Built statistical models to identify key drivers of mobile app rank across Apple and Google stores. Used Negative Binomial Regression and log-log models to estimate how price, ratings, file size, screenshots, and monetization features impact app demand.
 

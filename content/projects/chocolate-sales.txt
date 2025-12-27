@@ -3,7 +3,7 @@ subtitle: Sales Analysis & Forecasting
 date: Nov 2025
 tags: python, pandas, seaborn, analytics
 categories: Data + Business Analytics / BI Systems
-image: assets/images/project-placeholder.svg
+image: assets/projects/chocolate-sales/thumbnail.jpg
 overview:
 Analyzed a dataset of 5,000+ sales records to identify key revenue drivers and market trends.
 
@@ -25,3 +25,6 @@ impact:
 - Developed a data cleaning pipeline using Pandas to handle inconsistent currency formatting and date parsing, improving data quality by 100%.
 - Created interactive visualizations with Seaborn to showcase monthly sales trends and top-performing products, providing actionable insights for inventory management.
 - Automated the data acquisition and reporting process, reducing manual analysis time.
+
+links:
+- repo: https://github.com/nivevenkat/chocolate-sales

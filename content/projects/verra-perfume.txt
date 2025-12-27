@@ -3,7 +3,7 @@ subtitle: AI-Driven Brand Development
 date: Dec 2025
 tags: brand-strategy, product-design, ai-generated, business-plan
 categories: Product Management + UX, Strategy & Consulting Projects
-image: assets/images/project-placeholder.svg
+image: assets/projects/verra-perfume/verra_rooted_bottle_final_1764297357182.png
 overview:
 Developed a complete luxury perfume brand from concept to market-ready pitch using generative AI and data analytics. The project combined strategic market analysis with AI-powered creativity to create a full brand ecosystem.
 
@@ -46,3 +46,6 @@ learned:
 - How to use AI as a creative partner for brand building
 - The importance of data in validating creative decisions
 - How to structure a comprehensive business pitch for a CPG product
+
+Links: 
+-repo: https://github.com/nivevenkat24/Nive_Venkat_Perfume_Verra.git

@@ -3,7 +3,7 @@ subtitle: Construction Safety AI in Under 1 Hour
 date: Nov 2025
 tags: antigravity, yolov8, streamlit, safety, ai
 categories: AI / Machine Learning Projects
-image: assets/images/project-placeholder.svg
+image: assets/projects/jobsafety-ai/jobAI.jpg
 overview:
 Built a Construction Safety AI in Under 1 Hour — Thanks to Antigravity.
 

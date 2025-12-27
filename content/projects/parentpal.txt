@@ -78,5 +78,5 @@ User Personas:
 Includes built-in trust markers (“Always check with your pediatrician”) and compliance filters to maintain medical reliability and ethical accuracy.
 
 links:
-- demo: 
-- repo: 
+- demo:https://chatgpt.com/g/g-690a6ecab4bc8191b85495143ac13d78-parentpal 
+

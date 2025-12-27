@@ -1,9 +1,9 @@
 title: Search Engine Ad Ranking Model
 subtitle: Paid Search ML-Style Analytics (STATA)
-date: Dec 2025
+date: Jan 2025
 tags: analytics, machine-learning, stata, predictive-modeling
 categories: Data + Business Analytics / BI Systems
-image: assets/images/project-placeholder.svg
+image: assets/projects/ad-ranking-model/thumbnail.jpg
 overview:
 Designed regression models to predict ad rank using key auction variables including CTR, bid price, ad quality, landing page quality, retailer/brand presence, and daily effects. Achieved high explanatory power for CTR (Adj. R² = 0.91) and strong improvements in Ad Rank prediction when incorporating date effects.
 

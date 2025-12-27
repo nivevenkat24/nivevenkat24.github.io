@@ -1,9 +1,9 @@
 title: Air France Search Advertising Optimization
 subtitle: Performance Analytics (Excel + STATA)
-date: Dec 2025
+date: Jan 2025
 tags: analytics, marketing, excel, stata, roi
 categories: Data + Business Analytics / BI Systems
-image: assets/images/project-placeholder.svg
+image: assets/projects/air-france-ads/thumbnail.jpg
 overview:
 Analyzed Air France’s paid search advertising performance to identify which keywords, campaigns, and landing pages drive clicks, conversions, and revenue. Used CTR–TCR bubble charts and keyword tables to diagnose performance gaps and optimization opportunities.
 

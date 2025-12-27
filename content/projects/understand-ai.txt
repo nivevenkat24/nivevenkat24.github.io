@@ -37,3 +37,9 @@ Engineering teams lose hours each week trying to remember what was decided and w
 - How to convert raw user pain points into validated UX flows through rapid prototyping  
 - How PLG motions differ between engineering tools and consumer AI products  
 - How to shape an AI product around reliability, transparency, and low-friction recall
+
+Links to prrototye: 
+https://claude.ai/public/artifacts/d2346d9c-b850-4f58-99e2-a9c13ead4672
+https://claude.ai/public/artifacts/2fdc4cb5-42b2-4428-9f98-3d3734ca7eb9 
+https://engine-donut-23488528.figma.site/ 
+https://claude.ai/public/artifacts/c75f0eb2-ff6e-414c-8692-3aa35b5a9f1c 

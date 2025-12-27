@@ -1,9 +1,9 @@
 title: Philippines Macroeconomic Analysis
 subtitle: Growth drivers & economic resilience (Macro + FRED data)
-date: Dec 2025
+date: May 2024
 tags: economics, macro-analysis, international-business, growth-strategy
 categories: Strategy & Consulting Projects
-image: assets/images/project-placeholder.svg
+image: assets/projects/philippines-macro/thumbnail.jpg
 overview:
 Performed a comprehensive macroeconomic analysis of the Philippines using 30 years of data from FRED, World Bank, ADB, and trade datasets. Evaluated GDP growth, inflation, exports, productivity, sector composition, labor dynamics, and long-run economic prospects.
 

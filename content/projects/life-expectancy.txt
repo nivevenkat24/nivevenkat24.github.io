@@ -1,6 +1,6 @@
 title: Life Expectancy Regression Analysis
 subtitle: Statistical modeling of health outcomes (Regression + Minitab)
-date: Dec 2025
+date: Dec 2023
 tags: statistics, regression, data-analysis, health-economics
 categories: Data + Business Analytics / BI Systems
 image: assets/images/project-placeholder.svg
@@ -41,3 +41,7 @@ learned:
 - Outlier and normality checks are critical for reliable inference
 - Model selection requires balancing statistics with theory
 - Socio-economic enablers (education, health spending) matter more than BMI alone
+
+files:
+- label: Final Report (PDF)
+  url: assets/projects/life-expectancy/Stats ProjectFall23_Life Expectancy.docx.pdf

@@ -3,7 +3,7 @@ subtitle: AI-powered submittal reviewer (Gemini Pro 3)
 date: Nov 2025
 tags: gemini, aec, construction-tech, react, ai-agent
 categories: AI / Machine Learning Projects, Product Management + UX
-image: assets/images/project-placeholder.svg
+image: assets/projects/submittal-ai/SubmittalAI1.jpeg
 overview:
 Today I built SubmittalCheck AI, an AI-powered submittal reviewer that reads PDFs, checks completeness, flags spec deviations, and drafts engineer-ready comments — all using Google AI Studio + the brand-new Gemini Pro 3.
 

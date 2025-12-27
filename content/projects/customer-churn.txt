@@ -3,7 +3,7 @@ subtitle: ML & Deep Learning Pipeline
 date: Nov 2025
 tags: python, tensorflow, scikit-learn, power-bi, ml
 categories: AI / Machine Learning Projects, Data + Business Analytics / BI Systems
-image: assets/images/project-placeholder.svg
+image: assets/projects/customer-churn/thumbnail.jpg
 overview:
 Built an end-to-end pipeline using the Telco Customer Churn dataset. Compared logistic regression, random forest, and neural networks to predict churn and explain drivers.
 

@@ -1,9 +1,9 @@
 title: Tao Climate — Carbon Removal Pricing
 subtitle: Market Entry & Pricing Strategy
-date: Nov 2025
+date: Nov 202
 tags: strategy, climate-tech, pricing, analytics
 categories: Strategy & Consulting Projects
-image: assets/images/project-placeholder.svg
+image: assets/projects/tao-climate/Taoclimate.jpg
 overview:
 Developed a pricing and market-entry strategy for hemp-based carbon credits offered by Tao Climate — a climate-tech startup in the XPRIZE Top 100 for carbon removal.
 

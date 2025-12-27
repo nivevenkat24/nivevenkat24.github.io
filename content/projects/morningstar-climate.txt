@@ -1,9 +1,9 @@
 title: Morningstar — Climate Index Construction
 subtitle: ESG & Regulatory Analysis
-date: Nov 2025
+date: Jan 2025
 tags: finance, esg, python, strategy, morningstar
 categories: Strategy & Consulting Projects
-image: assets/images/project-placeholder.svg
+image: assets/projects/morningstar-climate/thumbnail.jpg
 overview:
 Led the Market & Regulatory Analysis for a climate-aligned European equity index. The project integrated Morningstar + Sustainalytics ESG datasets to create a forward-looking, regulatory-aligned index methodology.
 
