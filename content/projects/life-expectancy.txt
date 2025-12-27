@@ -1,7 +1,7 @@
 ---
 title: Life Expectancy Regression Analysis
 subtitle: Statistical modeling of health outcomes (Minitab)
-date: Dec 2025
+date: Dec 2023
 tags:
 - statistics
 - regression
@@ -13,7 +13,7 @@ overview:
 ---
 
 ### **Overview**
-Conducted a statistical analysis to understand how BMI and years of schooling influence global life expectancy using WHO and Kaggle data. Applied scatterplots, descriptive statistics, normality tests, simple regression, multiple regression, and model selection criteria (AICC and Adjusted R²).
+Conducted a full statistical analysis to understand how BMI and years of schooling influence global life expectancy using WHO and Kaggle data. Applied scatterplots, descriptive statistics, normality tests, simple regression, multiple regression, and model selection criteria (AICC and Adjusted R²).
 
 ---
 

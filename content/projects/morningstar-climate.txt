@@ -1,7 +1,7 @@
 ---
 title: Morningstar — Climate Index Construction
 subtitle: ESG and regulatory analysis
-date: Nov 2025
+date: Jan 2025
 tags:
 - finance
 - esg
@@ -9,7 +9,7 @@ tags:
 - strategy
 - morningstar
 categories: Strategy & Consulting Projects
-image: assets/images/project-placeholder.svg
+image: assets/images/projects/morningstar-climate-thumbnail.jpg
 overview: 
 ---
 

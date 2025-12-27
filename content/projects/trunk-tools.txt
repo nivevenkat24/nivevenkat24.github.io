@@ -9,7 +9,7 @@ tags:
 - product-management
 - ai
 categories: Product Management + UX, Strategy & Consulting Projects
-image: assets/images/project-placeholder.svg
+image: assets/images/projects/trunk-tools-thumbnail.jpg
 overview: 
 ---
 

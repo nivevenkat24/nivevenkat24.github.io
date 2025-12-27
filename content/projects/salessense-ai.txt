@@ -7,7 +7,7 @@ tags:
 - openai
 - engineering
 - ollama
-image: image: assets/images/project-placeholder.svg
+image: assets/images/projects/salessense-ai.jpg
 overview: 
 ---
 

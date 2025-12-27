@@ -1,14 +1,14 @@
 ---
 title: Mobile App Rank Drivers
 subtitle: Demand modeling and price elasticity (STATA)
-date: Dec 2025
+date: Jan 2025
 tags:
 - analytics
 - stata
 - demand-modeling
 - econometrics
 categories: Data + Business Analytics / BI Systems
-image: assets/images/project-placeholder.svg
+image: assets/images/projects/mobile-app-rank-thumbnail.jpg
 overview: 
 ---
 

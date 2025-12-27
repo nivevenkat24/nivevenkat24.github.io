@@ -8,7 +8,7 @@ tags:
 - demand-modeling
 - elasticity
 categories: Strategy & Consulting Projects
-image: assets/images/project-placeholder.svg
+image: assets/images/projects/cinemex-pricing-thumbnail.jpg
 overview: 
 ---
 
