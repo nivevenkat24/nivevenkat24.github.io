@@ -58,6 +58,3 @@ flowchart LR
 
 ---
 
-links:
-- demo: 
-- repo: 

@@ -25,11 +25,11 @@ Countries struggle to identify which socio-economic factors most strongly impact
 ### **Architecture Diagram (Analysis Flow)**
 ```mermaid
 flowchart LR
-    A[WHO Life Expectancy Dataset] --> B[Scatterplots & Outlier Detection]
+    A[WHO Life Expectancy Dataset] --> B["Scatterplots & Outlier Detection"]
     B --> C[Normality Tests & Transformations]
     C --> D[Simple Regression Models]
     C --> E[Multiple Regression Model]
-    E --> F[Model Comparison (AICC, Adj R²)]
+    E --> F["Model Comparison (AICC, Adj R²)"]
     F --> G[Insights for Policy & Intervention]
 ```
 

@@ -68,19 +68,19 @@ export async function renderAbout(root) {
   //   root.appendChild(roles);
   // }
 
-  if (about.interests && about.interests.length) {
-    const interests = el(`
-      <section class="section">
-      <div class="card glass about-body">
-        <h2>Interests</h2>
-        <ul class="list">
-          ${(about.interests || []).map(i => `<li>${renderInlineMarkdown(i)}</li>`).join('')}
-        </ul>
-        </div>
-      </section>
-    `);
-    root.appendChild(interests);
-  }
+  // if (about.interests && about.interests.length) {
+  //   const interests = el(`
+  //     <section class="section">
+  //     <div class="card glass about-body">
+  //       <h2>Interests</h2>
+  //       <ul class="list">
+  //         ${(about.interests || []).map(i => `<li>${renderInlineMarkdown(i)}</li>`).join('')}
+  //       </ul>
+  //       </div>
+  //     </section>
+  //   `);
+  //   root.appendChild(interests);
+  // }
 
   renderMermaidIn(root);
 }

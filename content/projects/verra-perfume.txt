@@ -8,7 +8,7 @@ tags:
 - ai-generated
 - business-plan
 categories: Product Management + UX, Strategy & Consulting Projects
-image: public/assets/images/projects/verra-perfume/verra_rooted_bottle_final_1764297357182.png
+image: assets/images/projects/verra-perfume/verra_rooted_bottle_final_1764297357182.png
 overview: 
 ---
 
@@ -17,24 +17,24 @@ Developed a complete luxury perfume brand from concept to market-ready pitch usi
 
 ---
 
-### **Problem**
-Traditional luxury fragrance brands lack transparency, while clean beauty brands often sacrifice luxury aesthetics. There was no brand serving the “Byredo for the Eco-Conscious” niche—offering premium design, emotional storytelling, and radical sustainability.
-
----
-
 ### **The Brand: Verra**
-- Tagline: Grounded in Truth  
-- Positioning: Sustainable minimalist luxury for modern conscious youth  
+- Tagline: Grounded in Truth
+- Positioning: Sustainable minimalist luxury for modern conscious youth
 - Product: Verra 01: Rooted — a woody citrus Eau de Parfum ($145)
 
 ---
 
 ### **Process**
-1) Identity: Used ChatGPT to generate names and taglines, selecting “Verra” (Truth + Earth).  
-2) Visuals: Created minimalist, embossed logo and packaging concepts using Leonardo.ai.  
-3) Data: Analyzed 2,000 eBay listings to identify the “Affordable Luxury” gap ($43–$54 average).  
-4) Product: Designed the scent profile (Bergamot, Vetiver, Cedarwood) and zero-waste packaging (mushroom mycelium).  
-5) Campaign: Developed the “#MyScentTruth” marketing campaign and pop-up launch strategy.
+- Identity: Used ChatGPT to generate names and taglines, selecting “Verra” (Truth + Earth).
+- Visuals: Created minimalist, embossed logo and packaging concepts using Leonardo.ai.
+- Data: Analyzed 2,000 eBay listings to identify the “Affordable Luxury” gap ($43–$54 average).
+- Product: Designed the scent profile (Bergamot, Vetiver, Cedarwood) and zero-waste packaging (mushroom mycelium).
+- Campaign: Developed the “#MyScentTruth” marketing campaign and pop-up launch strategy.
+
+---
+
+### **Problem**
+Traditional luxury fragrance brands lack transparency, while clean beauty brands often sacrifice luxury aesthetics. There was no brand serving the “Byredo for the Eco-Conscious” niche—offering premium design, emotional storytelling, and radical sustainability.
 
 ---
 
