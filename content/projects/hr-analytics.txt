@@ -7,7 +7,7 @@ tags:
 - hr-analytics
 - data-visualization
 categories: Data + Business Analytics / BI Systems
-image: assets/images/project-placeholder.svg
+image: assets/images/projects/hr-analytics-thumbnail.jpg
 overview: 
 ---
 

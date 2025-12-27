@@ -29,7 +29,7 @@ _If there’s a messy business problem, I’ll break it down._
 
 _If there’s data, I’ll analyze it._  
 
-_And if there’s an opportunity to use AI to make life easier, I’m already building it._
+_And if there's a way AI can make life easier, I'm exploring how to build it._
 
 ---
 

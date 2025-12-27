@@ -61,4 +61,3 @@ demo_gif: assets/images/projects/parentpal-gpt-demo.gif
 
 links:
 - demo: https://chatgpt.com/g/g-690a6ecab4bc8191b85495143ac13d78-parentpal
-- repo: 

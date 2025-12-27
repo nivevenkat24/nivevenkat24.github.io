@@ -39,7 +39,12 @@ function parseSimpleText(txt) {
         }
         continue;
       }
-      // If not an array field, let the bullet fall through and be captured as text (Markdown list)
+      // For non-array fields, keep bullets as literal markdown instead of treating them as keys
+      if (currentKey && !arrayKeys.has(currentKey)) {
+        data[currentKey] = (data[currentKey] ? `${data[currentKey]}\n` : '') + `- ${item}`;
+        continue;
+      }
+      // If there's no current key, fall through so we don't lose the line
     }
 
     const keyMatch = raw.match(/^([A-Za-z0-9_\- ]+):\s*(.*)$/);
